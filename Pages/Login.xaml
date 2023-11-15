@@ -95,7 +95,8 @@
                 <!--  Gumb za prijavu  -->
                 <Button
                     BackgroundColor="#0EBE7F"
-                    Clicked="OnBoardingScreenClicked"
+                    Clicked="NavigateToMain"
+                    FontAttributes="Bold"
                     HeightRequest="54"
                     Text="Prijavi se"
                     VerticalOptions="Center" />

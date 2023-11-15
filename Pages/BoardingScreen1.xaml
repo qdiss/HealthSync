@@ -68,10 +68,11 @@
                 FontAttributes="Bold"
                 FontSize="17"
                 Text="Započnimo" />
-            <Label
+            <Button
                 Margin="0,14,0,0"
+                BackgroundColor="Transparent"
+                Clicked="GoToMain"
                 FontSize="Small"
-                HorizontalTextAlignment="Center"
                 Text="Preskoči"
                 TextColor="#677295" />
         </StackLayout>

@@ -15,4 +15,10 @@ public partial class BoardingScreen1 : ContentPage
         // Otvori BoardingScreen1
         await Navigation.PushAsync(new BoardingScreen2());
     }
+
+    private async void GoToMain(object sender, EventArgs e)
+    {
+        // Otvori BoardingScreen1
+        await Navigation.PushAsync(new ChooseClinic());
+    }
 }

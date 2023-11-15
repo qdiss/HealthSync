@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="HealthSync.Pages.SearchDoctorTime"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="SearchDoctorTime">
+    <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+        <StackLayout BackgroundColor="AntiqueWhite">
+
+            <!--  Title & Vrati nazad  -->
+            <StackLayout
+                Margin="20,10,0,0"
+                HorizontalOptions="Start"
+                Orientation="Horizontal"
+                Spacing="20"
+                VerticalOptions="Start">
+                <Frame
+                    Padding="0,0,0,0"
+                    BackgroundColor="#F2F2F4"
+                    BorderColor="Transparent"
+                    HeightRequest="44"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="44">
+                    <Label
+                        Margin="-2,-2,0,0"
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        HorizontalOptions="Center"
+                        Text="&lt;"
+                        TextColor="#677294"
+                        VerticalOptions="Center" />
+                </Frame>
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    HorizontalOptions="Center"
+                    Text="Odaberi Vrijeme"
+                    VerticalOptions="Center" />
+            </StackLayout>
+
+            <!--  Opis Doktora  -->
+            <Frame
+                Margin="20"
+                BackgroundColor="#FFF"
+                BorderColor="Transparent">
+                <StackLayout Orientation="Horizontal">
+
+                    <!--  Slika  -->
+                    <Frame
+                        BorderColor="Transparent"
+                        CornerRadius="30"
+                        HeightRequest="80"
+                        HorizontalOptions="Start"
+                        WidthRequest="90">
+                        <Image
+                            Aspect="AspectFill"
+                            HeightRequest="69"
+                            Source="adis.png"
+                            WidthRequest="71" />
+                    </Frame>
+
+                    <!--  Opis  -->
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                        <Label
+                            Margin="10,0,0,0"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            HorizontalTextAlignment="Center"
+                            Text="Dr. Asim Bajrić"
+                            VerticalTextAlignment="Center" />
+                        <Label
+                            Margin="10,0,0,0"
+                            FontSize="12"
+                            HorizontalTextAlignment="Center"
+                            Text="Kantonalna Bolnica"
+                            VerticalTextAlignment="Center" />
+                        <Label
+                            Margin="10,0,0,0"
+                            FontSize="12"
+                            HorizontalTextAlignment="Center"
+                            Text="Pulmolog" />
+                    </StackLayout>
+
+                </StackLayout>
+            </Frame>
+
+            <!--  Slobodna Mjesta  -->
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

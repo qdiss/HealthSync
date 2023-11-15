@@ -12,11 +12,18 @@ namespace HealthSync.Pages
         }
 
 
-        // Dodajte ovu metodu koja æe se pozvati kada se pritisne "Prijavite se" na SignIn stranici
+        // Naviage to Login page
         async void NavigateToLogin(object sender, EventArgs e)
         {
             await Navigation.PopAsync().ConfigureAwait(false);
             Console.WriteLine("Navigated back to Login page from SignIn Label");
+        }
+
+        //Navigacija na BoardingScreen1 stranicu
+        private async void OnBoardingScreenClicked(object sender, EventArgs e)
+        {
+            // Otvori BoardingScreen1
+            await Navigation.PushAsync(new BoardingScreen1());
         }
     }
 }

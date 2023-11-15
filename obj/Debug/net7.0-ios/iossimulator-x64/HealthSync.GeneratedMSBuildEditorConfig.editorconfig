@@ -40,11 +40,35 @@ build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.BoardingS
 build_metadata.AdditionalFiles.TargetPath = Pages\BoardingScreen3.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\BoardingScreen3.xaml
 
+[C:/Users/aklob/Desktop/HealthSync/Pages/BolnicaScreen.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.BolnicaScreen.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\BolnicaScreen.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\BolnicaScreen.xaml
+
+[C:/Users/aklob/Desktop/HealthSync/Pages/ChooseClinic.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.ChooseClinic.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ChooseClinic.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ChooseClinic.xaml
+
 [C:/Users/aklob/Desktop/HealthSync/Pages/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Login.xaml
+
+[C:/Users/aklob/Desktop/HealthSync/Pages/SearchDoctor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.SearchDoctor.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SearchDoctor.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SearchDoctor.xaml
+
+[C:/Users/aklob/Desktop/HealthSync/Pages/SearchDoctorTime.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.SearchDoctorTime.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SearchDoctorTime.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SearchDoctorTime.xaml
 
 [C:/Users/aklob/Desktop/HealthSync/Pages/SignIn.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

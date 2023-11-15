@@ -17,11 +17,11 @@ namespace HealthSync.Pages
             Console.WriteLine("Navigated to SignIn page");
         }
 
-        //Navigacija na BoardingScreen1 stranicu
-        private async void OnBoardingScreenClicked(object sender, EventArgs e)
+        //Navigacija na Main stranicu
+        private async void NavigateToMain(object sender, EventArgs e)
         {
             // Otvori BoardingScreen1
-            await Navigation.PushAsync(new BoardingScreen1());
+            await Navigation.PushAsync(new ChooseClinic());
         }
 
     }

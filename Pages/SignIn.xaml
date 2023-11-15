@@ -78,7 +78,7 @@
                     BorderColor="#677294"
                     CornerRadius="6"
                     HasShadow="False">
-                    <Entry Placeholder="Email" Margin="10,0,0,0"/>
+                    <Entry Margin="10,0,0,0" Placeholder="Email" />
                 </Frame>
                 <!--  Unos za lozinku  -->
                 <Frame
@@ -87,7 +87,7 @@
                     BorderColor="#677294"
                     CornerRadius="6"
                     HasShadow="False">
-                    <Entry Placeholder="Lozinka" Margin="10,0,0,0"/>
+                    <Entry Margin="10,0,0,0" Placeholder="Lozinka" />
                 </Frame>
 
 
@@ -108,6 +108,7 @@
                 <Button
                     Margin="0,31,0,0"
                     BackgroundColor="#0EBE7F"
+                    Clicked="OnBoardingScreenClicked"
                     FontAttributes="Bold"
                     FontSize="18"
                     HeightRequest="54"

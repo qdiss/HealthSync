@@ -63,6 +63,7 @@
             <Button
                 Margin="51,65,51,0"
                 BackgroundColor="#0EBE7F"
+                Clicked="NavigateToChooseClinic"
                 CornerRadius="10"
                 FontAttributes="Bold"
                 FontSize="17"

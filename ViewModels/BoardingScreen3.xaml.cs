@@ -9,4 +9,10 @@ public partial class BoardingScreen3 : ContentPage
         // NavBar sakrivanje
         NavigationPage.SetHasNavigationBar(this, false);
     }
+
+    private async void NavigateToChooseClinic(object sender, EventArgs e)
+    {
+        // Otvori Choose Clinic
+        await Navigation.PushAsync(new ChooseClinic());
+    }
 }

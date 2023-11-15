@@ -1,0 +1,1420 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="HealthSync.Pages.ChooseClinic"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="ChooseClinic">
+
+    <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+        <StackLayout>
+            <!--  Header Choose clinic  -->
+            <StackLayout>
+                <Frame
+                    Margin="-2,-25,0,0"
+                    BorderColor="Transparent"
+                    CornerRadius="40"
+                    HeightRequest="180"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    WidthRequest="414">
+                    <Frame.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Offset="0.7" Color="#0EBE7E" />
+                            <GradientStop Offset="1.1" Color="#07D9AD" />
+                        </LinearGradientBrush>
+                    </Frame.Background>
+                    <StackLayout>
+                        <Label
+                            Margin="20,43,0,0"
+                            FontSize="20"
+                            Text="Hi Adis!"
+                            TextColor="#FAFAFA" />
+                        <Label
+                            Margin="20,0,0,0"
+                            FontAttributes="Bold"
+                            FontSize="25"
+                            Text="Odaberite polikliniku"
+                            TextColor="#FAFAFA" />
+                        <Label
+                            Margin="20,-6,0,0"
+                            FontAttributes="Bold"
+                            FontSize="25"
+                            Text="ili Bolnicu"
+                            TextColor="#FAFAFA" />
+                        <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                            <Frame
+                                Margin="300,-100,0,0"
+                                BorderColor="Transparent"
+                                CornerRadius="1000"
+                                HeightRequest="60"
+                                WidthRequest="60">
+                                <Image
+                                    HeightRequest="90"
+                                    HorizontalOptions="Center"
+                                    Source="adis.png"
+                                    VerticalOptions="Center"
+                                    WidthRequest="90" />
+                            </Frame>
+                        </HorizontalStackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame
+                    Margin="0,-20,0,0"
+                    BorderColor="#FAFAFA"
+                    CornerRadius="6"
+                    HeightRequest="60"
+                    WidthRequest="340">
+                    <SearchBar
+                        Margin="-15,0,0,0"
+                        FontSize="15"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Start"
+                        Placeholder="Search anything"
+                        SearchButtonPressed="OnSearchButtonPressed"
+                        TextColor="#677294"
+                        VerticalOptions="Center"
+                        VerticalTextAlignment="Center" />
+                </Frame>
+            </StackLayout>
+
+            <!--  Popularni Doktori Tekst Iznad  -->
+            <StackLayout Margin="38,10,0,0" Orientation="Horizontal">
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    Text="Popularni Doktori" />
+                <Label
+                    Margin="118,0,0,0"
+                    FontSize="12"
+                    HorizontalOptions="Center"
+                    Text="Pogledaj sve"
+                    VerticalOptions="Center" />
+            </StackLayout>
+
+            <!--  Popularni Doktori  Slike  -->
+            <FlexLayout Direction="Row" JustifyContent="Start">
+                <ScrollView
+                    HorizontalOptions="FillAndExpand"
+                    HorizontalScrollBarVisibility="Never"
+                    Orientation="Horizontal"
+                    VerticalOptions="FillAndExpand"
+                    VerticalScrollBarVisibility="Never">
+                    <StackLayout Margin="18,20,0,0" Orientation="Horizontal">
+
+                        <StackLayout>
+                            <Frame
+                                Margin="20,0,0,0"
+                                BorderColor="Transparent"
+                                CornerRadius="6"
+                                HeightRequest="204"
+                                WidthRequest="190">
+                                <Image
+                                    HeightRequest="264"
+                                    HorizontalOptions="Center"
+                                    Source="adis.png"
+                                    VerticalOptions="Center"
+                                    WidthRequest="190" />
+                            </Frame>
+                            <Label
+                                Margin="0,0,0,10"
+                                FontAttributes="Bold"
+                                FontSize="18"
+                                HorizontalOptions="Center"
+                                Text="Esad Šabić"
+                                TextColor="Black"
+                                VerticalOptions="EndAndExpand" />
+                            <Label
+                                Margin="0,0,0,0"
+                                FontSize="12"
+                                HorizontalOptions="Center"
+                                Text="Inženjer Radiologije"
+                                TextColor="Gray"
+                                VerticalOptions="EndAndExpand" />
+                        </StackLayout>
+
+
+                        <StackLayout>
+                            <Frame
+                                Margin="20,0,0,0"
+                                BorderColor="Transparent"
+                                CornerRadius="6"
+                                HeightRequest="204"
+                                WidthRequest="190">
+                                <Image
+                                    HeightRequest="264"
+                                    HorizontalOptions="Center"
+                                    Source="adis.png"
+                                    VerticalOptions="Center"
+                                    WidthRequest="190" />
+                            </Frame>
+                            <Label
+                                Margin="0,0,0,10"
+                                FontAttributes="Bold"
+                                FontSize="18"
+                                HorizontalOptions="Center"
+                                Text="Dr. Enver Šabić"
+                                TextColor="Black"
+                                VerticalOptions="EndAndExpand" />
+                            <Label
+                                Margin="0,0,0,0"
+                                FontSize="12"
+                                HorizontalOptions="Center"
+                                Text="Doktor Medicine"
+                                TextColor="Gray"
+                                VerticalOptions="EndAndExpand" />
+                        </StackLayout>
+
+                        <StackLayout>
+                            <Frame
+                                Margin="20,0,0,0"
+                                BorderColor="Transparent"
+                                CornerRadius="6"
+                                HeightRequest="204"
+                                WidthRequest="190">
+                                <Image
+                                    HeightRequest="204"
+                                    HorizontalOptions="Center"
+                                    Source="adis.png"
+                                    VerticalOptions="Center"
+                                    WidthRequest="190" />
+                            </Frame>
+                            <Label
+                                Margin="0,0,0,10"
+                                FontAttributes="Bold"
+                                FontSize="18"
+                                HorizontalOptions="Center"
+                                Text="Nedžad Šabić"
+                                TextColor="Black"
+                                VerticalOptions="EndAndExpand" />
+                            <Label
+                                Margin="0,0,0,0"
+                                FontSize="12"
+                                HorizontalOptions="Center"
+                                Text="Hirurg"
+                                TextColor="Gray"
+                                VerticalOptions="EndAndExpand" />
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+
+                </ScrollView>
+            </FlexLayout>
+
+            <!--  Izbor Poliklinike/ Bolnice  -->
+            <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+                <FlexLayout
+                    Margin="20,20,0,0"
+                    AlignItems="Start"
+                    Direction="Column"
+                    JustifyContent="Start">
+
+                    <!--  Citava ustanova Bolnica  -->
+                    <Frame
+                        Padding="12,-30,20,0"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="190"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Poliklinike/Bolnice  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Ustanove  -->
+                                <Label
+                                    Margin="-10,26,0,5"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="Kantonalna Bolnica"
+                                    TextColor="#333333" />
+
+                                <!--  Adresa  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Crkvice 67"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Godine Postojanja  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="69 Godina Postojanja"
+                                    TextColor="#677294" />
+                                <!--  Doktori Display  -->
+                                <FlexLayout
+                                    Margin="-39,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="180">
+
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        FontSize="12"
+                                        Text="100+"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,0,0,0"
+                                        FontSize="12"
+                                        Text="Doktora"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Tehnicari Display  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="195">
+
+                                    <Frame
+                                        Margin="43,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        Text="500+"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        Text="Tehničara"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontSize="13"
+                                        Text="00:00 - 24:00"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="Tel: +387 32 447000"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-42,0,0"
+                                    Background="#0EBE7F"
+                                    Clicked="GoToBolnica"
+                                    FontAttributes="Bold"
+                                    FontSize="12"
+                                    Text="Izaberi" />
+
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                    <!--  Citava ustanova JU Dom Zdravlja  -->
+                    <Frame
+                        Padding="12,-30,20,0"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="190"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Poliklinike/Bolnice  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Ustanove  -->
+                                <Label
+                                    Margin="-10,26,0,5"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="JU Dom Zdravlja"
+                                    TextColor="#333333" />
+
+                                <!--  Adresa  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Fra Ivana Franje Jukića 2"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Godine Postojanja  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="70 Godina Postojanja"
+                                    TextColor="#677294" />
+                                <!--  Doktori Display  -->
+                                <FlexLayout
+                                    Margin="-39,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="180">
+
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        FontSize="12"
+                                        Text="125"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,0,0,0"
+                                        FontSize="12"
+                                        Text="Doktora"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Tehnicari Display  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="195">
+
+                                    <Frame
+                                        Margin="43,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        Text="255"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        Text="Tehničara"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontSize="13"
+                                        Text="07:00 - 17:30"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="Tel: +387 32 401 555"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-42,0,0"
+                                    Background="#0EBE7F"
+                                    Clicked="GoToBolnica"
+                                    FontAttributes="Bold"
+                                    FontSize="12"
+                                    Text="Izaberi" />
+
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                    <!--  Citava ustanova Stacionar  -->
+                    <Frame
+                        Padding="12,-30,20,0"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="190"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Poliklinike/Bolnice  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Ustanove  -->
+                                <Label
+                                    Margin="-10,26,0,5"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="Stacionar"
+                                    TextColor="#333333" />
+
+                                <!--  Adresa  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Bulevar Kralja Tvrtka I 4"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Godine Postojanja  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="66 Godina Postojanja"
+                                    TextColor="#677294" />
+                                <!--  Doktori Display  -->
+                                <FlexLayout
+                                    Margin="-39,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="180">
+
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        FontSize="12"
+                                        Text="40+"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,0,0,0"
+                                        FontSize="12"
+                                        Text="Doktora"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Tehnicari Display  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="195">
+
+                                    <Frame
+                                        Margin="43,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        Text="80+"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        Text="Tehničara"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontSize="13"
+                                        Text="07:00 - 18:00"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="Tel: +032 401-555"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-42,0,0"
+                                    Background="#0EBE7F"
+                                    FontAttributes="Bold"
+                                    FontSize="12"
+                                    Text="Izaberi" />
+
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                    <!--  Citava ustanova  Poliklinika Sunce  -->
+                    <Frame
+                        Padding="12,-30,20,0"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="190"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Poliklinike/Bolnice  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Ustanove  -->
+                                <Label
+                                    Margin="-10,26,0,5"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="Poliklinika Sunce"
+                                    TextColor="#333333" />
+
+                                <!--  Adresa  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Štrosmajerova 11"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Godine Postojanja  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="20+ Godina Postojanja"
+                                    TextColor="#677294" />
+                                <!--  Doktori Display  -->
+                                <FlexLayout
+                                    Margin="-39,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="180">
+
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        FontSize="12"
+                                        Text="40"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,0,0,0"
+                                        FontSize="12"
+                                        Text="Doktora"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Tehnicari Display  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="195">
+
+                                    <Frame
+                                        Margin="43,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        Text="100+"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        Text="Tehničara"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontSize="13"
+                                        Text="07:00 - 20:00"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="Tel: +387 (0) 32 442 560"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-42,0,0"
+                                    Background="#0EBE7F"
+                                    FontAttributes="Bold"
+                                    FontSize="12"
+                                    Text="Izaberi" />
+
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                    <!--  Citava ustanova Poliklinika Medicom  -->
+                    <Frame
+                        Padding="12,-30,20,0"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="190"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Poliklinike/Bolnice  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Ustanove  -->
+                                <Label
+                                    Margin="-10,26,0,5"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="Poliklinika Medicom"
+                                    TextColor="#333333" />
+
+                                <!--  Adresa  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Sarajevska 20"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Godine Postojanja  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="13 Godina Postojanja"
+                                    TextColor="#677294" />
+                                <!--  Doktori Display  -->
+                                <FlexLayout
+                                    Margin="-39,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="180">
+
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        FontSize="12"
+                                        Text="20"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,0,0,0"
+                                        FontSize="12"
+                                        Text="Doktora"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Tehnicari Display  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="195">
+
+                                    <Frame
+                                        Margin="43,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        Text="50"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        Text="Tehničara"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontSize="13"
+                                        Text="07:00 - 19:00"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="Tel: +387 61 132 111"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-42,0,0"
+                                    Background="#0EBE7F"
+                                    FontAttributes="Bold"
+                                    FontSize="12"
+                                    Text="Izaberi" />
+
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                    <!--  Citava ustanova Poliklinika Epion  -->
+                    <Frame
+                        Padding="12,-30,20,0"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="190"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Poliklinike/Bolnice  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Ustanove  -->
+                                <Label
+                                    Margin="-10,26,0,5"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="Poliklinika Epion"
+                                    TextColor="#333333" />
+
+                                <!--  Adresa  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Bistua Nuova 3"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Godine Postojanja  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="2 Godine Postojanja"
+                                    TextColor="#677294" />
+                                <!--  Doktori Display  -->
+                                <FlexLayout
+                                    Margin="-39,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="180">
+
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        FontSize="12"
+                                        Text="4"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,0,0,0"
+                                        FontSize="12"
+                                        Text="Doktora"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Tehnicari Display  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="195">
+
+                                    <Frame
+                                        Margin="43,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        Text="30+"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        Text="Tehničara"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontSize="13"
+                                        Text="07:00 - 19:00"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="Tel: +032 970 444"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-42,0,0"
+                                    Background="#0EBE7F"
+                                    FontAttributes="Bold"
+                                    FontSize="12"
+                                    Text="Izaberi" />
+
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                    <!--  Citava ustanova NOVA Poliklinika  -->
+                    <Frame
+                        Padding="12,-30,20,0"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="190"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Poliklinike/Bolnice  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Ustanove  -->
+                                <Label
+                                    Margin="-10,26,0,5"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="NOVA Poliklinika"
+                                    TextColor="#333333" />
+
+                                <!--  Adresa  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Zmaja od Bosne"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Godine Postojanja  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="1 Godina Postojanja"
+                                    TextColor="#677294" />
+                                <!--  Doktori Display  -->
+                                <FlexLayout
+                                    Margin="-39,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="180">
+
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        FontSize="12"
+                                        Text="4"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,0,0,0"
+                                        FontSize="12"
+                                        Text="Doktora"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Tehnicari Display  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="195">
+
+                                    <Frame
+                                        Margin="43,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        Text="30+"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        Text="Tehničara"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontSize="13"
+                                        Text="07:00 - 19:00"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="Tel: +032 206-206"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-42,0,0"
+                                    Background="#0EBE7F"
+                                    FontAttributes="Bold"
+                                    FontSize="12"
+                                    Text="Izaberi" />
+
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                    <!--  Citava ustanova Poliklinika Dr.Šabić  -->
+                    <Frame
+                        Padding="12,-30,20,0"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="190"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Poliklinike/Bolnice  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Ustanove  -->
+                                <Label
+                                    Margin="-10,26,0,5"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="Poliklinika Dr.Šabić"
+                                    TextColor="#333333" />
+
+                                <!--  Adresa  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Ulica Bulevar Kulina Bana br. 30"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Godine Postojanja  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="20 Godine Postojanja"
+                                    TextColor="#677294" />
+                                <!--  Doktori Display  -->
+                                <FlexLayout
+                                    Margin="-39,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="180">
+
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        FontSize="12"
+                                        Text="7"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,0,0,0"
+                                        FontSize="12"
+                                        Text="Doktora"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Tehnicari Display  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="195">
+
+                                    <Frame
+                                        Margin="43,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        Text="20"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        Text="Tehničara"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontSize="13"
+                                        Text="07:30-19:30"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="Tel: +387 32 44 22 00"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-42,0,0"
+                                    Background="#0EBE7F"
+                                    FontAttributes="Bold"
+                                    FontSize="12"
+                                    Text="Izaberi" />
+
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                    <!--  Citava ustanova Poliklinika Prima  -->
+                    <Frame
+                        Padding="12,-30,20,0"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="190"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Poliklinike/Bolnice  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Ustanove  -->
+                                <Label
+                                    Margin="-10,26,0,5"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="Poliklinika Prima"
+                                    TextColor="#333333" />
+
+                                <!--  Adresa  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Sarajevska 79"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Godine Postojanja  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="10 Godina Postojanja"
+                                    TextColor="#677294" />
+                                <!--  Doktori Display  -->
+                                <FlexLayout
+                                    Margin="-39,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="180">
+
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        FontSize="12"
+                                        Text="7"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,0,0,0"
+                                        FontSize="12"
+                                        Text="Doktora"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Tehnicari Display  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="195">
+
+                                    <Frame
+                                        Margin="43,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        Text="20"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        Text="Tehničara"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontSize="13"
+                                        Text="08:00 – 20:00"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="Tel: +032 441-460"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-42,0,0"
+                                    Background="#0EBE7F"
+                                    FontAttributes="Bold"
+                                    FontSize="12"
+                                    Text="Izaberi" />
+
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                    <!--  Citava ustanova Poliklinika Zdravlje  -->
+                    <Frame
+                        Padding="12,-30,20,0"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="190"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Poliklinike/Bolnice  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Ustanove  -->
+                                <Label
+                                    Margin="-10,26,0,5"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="Poliklinika Zdravlje"
+                                    TextColor="#333333" />
+
+                                <!--  Adresa  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Školska 10"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Godine Postojanja  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="19 Godina Postojanja"
+                                    TextColor="#677294" />
+                                <!--  Doktori Display  -->
+                                <FlexLayout
+                                    Margin="-39,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="180">
+
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        FontSize="12"
+                                        Text="N/A"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,0,0,0"
+                                        FontSize="12"
+                                        Text="Doktora"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Tehnicari Display  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    WidthRequest="195">
+
+                                    <Frame
+                                        Margin="43,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        Text="N/A"
+                                        TextColor="#677294" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        Text="Tehničara"
+                                        TextColor="#677294" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontSize="13"
+                                        Text="07:00 - 17:30"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="Tel: +032 407-722"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-42,0,0"
+                                    Background="#0EBE7F"
+                                    Clicked="GoToBolnica"
+                                    FontAttributes="Bold"
+                                    FontSize="12"
+                                    Text="Izaberi" />
+
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                </FlexLayout>
+            </ScrollView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

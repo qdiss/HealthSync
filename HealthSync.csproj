@@ -50,6 +50,8 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\AppIcon\logo.svg" />
+	  <None Remove="Resources\Images\abdomen.svg" />
+	  <None Remove="Resources\Images\bolnica.png" />
 	  <None Remove="Resources\Images\BS1.png" />
 	  <None Remove="Resources\Images\bs2.png" />
 	  <None Remove="Resources\Images\BS3.png" />
@@ -60,6 +62,12 @@
 	  <None Remove="Resources\Images\google.png" />
 	  <None Remove="Resources\Images\Group.svg" />
 	  <None Remove="Resources\Images\krug2.png" />
+	  <None Remove="Resources\Images\oko.svg" />
+	  <None Remove="Resources\Images\srce.svg" />
+	  <None Remove="Resources\Images\srce_crveno.svg" />
+	  <None Remove="Resources\Images\srce_prazno.svg" />
+	  <None Remove="Resources\Images\star.svg" />
+	  <None Remove="Resources\Images\zub.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -74,6 +82,18 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\BoardingScreen3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\BolnicaScreen.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\ChooseClinic.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\SearchDoctor.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\SearchDoctorTime.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\SignIn.xaml">
