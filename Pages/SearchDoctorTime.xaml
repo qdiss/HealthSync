@@ -3,91 +3,268 @@
     x:Class="HealthSync.Pages.SearchDoctorTime"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="SearchDoctorTime">
-    <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
-        <StackLayout BackgroundColor="AntiqueWhite">
 
-            <!--  Title & Vrati nazad  -->
-            <StackLayout
-                Margin="20,10,0,0"
-                HorizontalOptions="Start"
-                Orientation="Horizontal"
-                Spacing="20"
-                VerticalOptions="Start">
-                <Frame
-                    Padding="0,0,0,0"
-                    BackgroundColor="#F2F2F4"
-                    BorderColor="Transparent"
-                    HeightRequest="44"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    WidthRequest="44">
+    <Grid>
+        <!--  Plavi krug sa zamućenjem  -->
+        <Image
+            Aspect="AspectFill"
+            HeightRequest="270"
+            HorizontalOptions="Start"
+            Opacity="0.5"
+            Source="lijevi_plavi.png"
+            VerticalOptions="Start"
+            WidthRequest="270" />
+
+        <!--  Zeleni krug sa zamućenjem  -->
+        <Image
+            Aspect="AspectFill"
+            HeightRequest="250"
+            HorizontalOptions="End"
+            Opacity="0.5"
+            Source="desni_zeleni.png"
+            VerticalOptions="End"
+            WidthRequest="250" />
+
+        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <StackLayout>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--  Zeleni krug  -->
+                    <BoxView
+                        BackgroundColor="#0EBE7E"
+                        CornerRadius="108"
+                        HorizontalOptions="End"
+                        Opacity="0.3"
+                        VerticalOptions="Start" />
+
+                    <!--  Plavi krug  -->
+                    <BoxView
+                        BackgroundColor="#61CEFF"
+                        CornerRadius="108"
+                        HorizontalOptions="Start"
+                        VerticalOptions="End" />
+
+                    <!--  Dodajte ostatak vašeg XAML koda ovdje  -->
+
+                </Grid>
+
+                <!--  Title & Vrati nazad  -->
+                <StackLayout
+                    Margin="20,10,0,0"
+                    HorizontalOptions="Start"
+                    Orientation="Horizontal"
+                    Spacing="20"
+                    VerticalOptions="Start">
+                    <Frame
+                        Padding="0,0,0,0"
+                        BackgroundColor="#Fff"
+                        BorderColor="Transparent"
+                        CornerRadius="14"
+                        HeightRequest="44"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        WidthRequest="44">
+                        <Label
+                            Margin="-2,-2,0,0"
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            HorizontalOptions="Center"
+                            Text="&lt;"
+                            TextColor="#677294"
+                            VerticalOptions="Center" />
+                    </Frame>
+
                     <Label
-                        Margin="-2,-2,0,0"
                         FontAttributes="Bold"
                         FontSize="18"
                         HorizontalOptions="Center"
-                        Text="&lt;"
-                        TextColor="#677294"
+                        Text="Odaberi Vrijeme"
                         VerticalOptions="Center" />
-                </Frame>
-                <Label
-                    FontAttributes="Bold"
-                    FontSize="18"
-                    HorizontalOptions="Center"
-                    Text="Odaberi Vrijeme"
-                    VerticalOptions="Center" />
-            </StackLayout>
-
-            <!--  Opis Doktora  -->
-            <Frame
-                Margin="20"
-                BackgroundColor="#FFF"
-                BorderColor="Transparent">
-                <StackLayout Orientation="Horizontal">
-
-                    <!--  Slika  -->
-                    <Frame
-                        BorderColor="Transparent"
-                        CornerRadius="30"
-                        HeightRequest="80"
-                        HorizontalOptions="Start"
-                        WidthRequest="90">
-                        <Image
-                            Aspect="AspectFill"
-                            HeightRequest="69"
-                            Source="adis.png"
-                            WidthRequest="71" />
-                    </Frame>
-
-                    <!--  Opis  -->
-                    <StackLayout Orientation="Vertical" VerticalOptions="Center">
-                        <Label
-                            Margin="10,0,0,0"
-                            FontAttributes="Bold"
-                            FontSize="16"
-                            HorizontalTextAlignment="Center"
-                            Text="Dr. Asim Bajrić"
-                            VerticalTextAlignment="Center" />
-                        <Label
-                            Margin="10,0,0,0"
-                            FontSize="12"
-                            HorizontalTextAlignment="Center"
-                            Text="Kantonalna Bolnica"
-                            VerticalTextAlignment="Center" />
-                        <Label
-                            Margin="10,0,0,0"
-                            FontSize="12"
-                            HorizontalTextAlignment="Center"
-                            Text="Pulmolog" />
-                    </StackLayout>
-
                 </StackLayout>
-            </Frame>
 
-            <!--  Slobodna Mjesta  -->
+                <!--  Opis Doktora  -->
+                <Frame
+                    Margin="20"
+                    BackgroundColor="#FFF"
+                    BorderColor="Transparent">
+                    <StackLayout Orientation="Horizontal">
 
+                        <!--  Slika  -->
+                        <Frame
+                            BorderColor="Transparent"
+                            CornerRadius="30"
+                            HeightRequest="80"
+                            HorizontalOptions="Start"
+                            WidthRequest="90">
+                            <Image
+                                Aspect="AspectFill"
+                                HeightRequest="69"
+                                Source="adis.png"
+                                WidthRequest="71" />
+                        </Frame>
 
-        </StackLayout>
-    </ScrollView>
+                        <!--  Opis  -->
+                        <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                            <Label
+                                Margin="10,0,0,0"
+                                FontAttributes="Bold"
+                                FontSize="16"
+                                HorizontalTextAlignment="Center"
+                                Text="Dr. Asim Bajrić"
+                                VerticalTextAlignment="Center" />
+                            <Label
+                                Margin="10,0,0,0"
+                                FontSize="12"
+                                HorizontalTextAlignment="Center"
+                                Text="Kantonalna Bolnica"
+                                VerticalTextAlignment="Center" />
+                            <Label
+                                Margin="10,0,0,0"
+                                FontSize="12"
+                                HorizontalTextAlignment="Center"
+                                Text="Pulmolog" />
+                        </StackLayout>
+
+                    </StackLayout>
+                </Frame>
+
+                <!--  Slobodna Mjesta  -->
+                <ScrollView HorizontalScrollBarVisibility="Never" Orientation="Horizontal">
+                    <HorizontalStackLayout Margin="20,10,20,0" Spacing="10">
+
+                        <!--  Danas  -->
+                        <Frame BorderColor="Transparent">
+                            <StackLayout
+                                HeightRequest="44"
+                                Orientation="Vertical"
+                                WidthRequest="130">
+                                <Label
+                                    Margin="0,0,0,5"
+                                    FontAttributes="Bold"
+                                    FontSize="17"
+                                    HorizontalTextAlignment="Center"
+                                    Text="{Binding TodayLabel}"
+                                    VerticalTextAlignment="Center" />
+                                <Label
+                                    FontSize="11"
+                                    HorizontalTextAlignment="Center"
+                                    Text="Nema slobodnih mjesta"
+                                    TextColor="#677294"
+                                    VerticalTextAlignment="Center" />
+                            </StackLayout>
+                        </Frame>
+
+                        <!--  Sutra  -->
+                        <Frame BackgroundColor="#0EBE7F" BorderColor="Transparent">
+                            <StackLayout
+                                HeightRequest="44"
+                                Orientation="Vertical"
+                                WidthRequest="130">
+                                <Label
+                                    Margin="0,0,0,5"
+                                    FontAttributes="Bold"
+                                    FontSize="18"
+                                    HorizontalTextAlignment="Center"
+                                    Text="{Binding TomorrowLabel}"
+                                    TextColor="White"
+                                    VerticalTextAlignment="Center" />
+                                <Label
+                                    FontSize="11"
+                                    HorizontalTextAlignment="Center"
+                                    Text="9 mjesta slobodno"
+                                    TextColor="#FFF"
+                                    VerticalTextAlignment="Center" />
+                            </StackLayout>
+                        </Frame>
+
+                        <!--  Prekosutra  -->
+                        <Frame BorderColor="Transparent">
+                            <StackLayout
+                                HeightRequest="44"
+                                Orientation="Vertical"
+                                WidthRequest="150">
+                                <Label
+                                    Margin="0,0,0,5"
+                                    FontAttributes="Bold"
+                                    FontSize="17"
+                                    HorizontalTextAlignment="Center"
+                                    Text="{Binding DayAfterTomorrowLabel}"
+                                    VerticalTextAlignment="Center" />
+                                <Label
+                                    FontSize="11"
+                                    HorizontalTextAlignment="Center"
+                                    Text="10 mjesta slobodno"
+                                    TextColor="#677294"
+                                    VerticalTextAlignment="Center" />
+                            </StackLayout>
+                        </Frame>
+
+                    </HorizontalStackLayout>
+                </ScrollView>
+
+                <!--  Današnji Dan  -->
+                <StackLayout
+                    Margin="0,60,0,0"
+                    HeightRequest="44"
+                    HorizontalOptions="Center"
+                    Orientation="Vertical"
+                    VerticalOptions="Center"
+                    WidthRequest="180">
+                    <Label
+                        Margin="0,0,0,27"
+                        FontAttributes="Bold"
+                        FontSize="22"
+                        HorizontalTextAlignment="Center"
+                        LineBreakMode="NoWrap"
+                        Text="{Binding TodayLabel}"
+                        VerticalTextAlignment="Center" />
+
+                    <Label
+                        FontSize="15"
+                        HorizontalTextAlignment="Center"
+                        Text="Nema slobodnih mjesta"
+                        TextColor="#677294"
+                        VerticalTextAlignment="Center" />
+                </StackLayout>
+
+                <!--  Dugmad  -->
+                <StackLayout Margin="20,70,20,0" Orientation="Vertical">
+                    <Button
+                        Margin="20,0,20,0"
+                        Background="#0EBE7F"
+                        Clicked="NavigateToDoctorTimePick"
+                        FontAttributes="Bold"
+                        FontSize="17"
+                        Text="{Binding NextAvailabilityText}" />
+                    <Label
+                        Margin="0,15,0,0"
+                        FontAttributes="Bold"
+                        FontSize="16"
+                        HorizontalTextAlignment="Center"
+                        Text="Ili"
+                        TextColor="#677294"
+                        VerticalTextAlignment="Center" />
+                    <Button
+                        Margin="20,15,20,0"
+                        BackgroundColor="Transparent"
+                        BorderColor="#0EBE7F"
+                        BorderWidth="1"
+                        FontAttributes="Bold"
+                        FontSize="17"
+                        Text="Kontaktiraj Kliniku"
+                        TextColor="#0EBE7F" />
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
 </ContentPage>

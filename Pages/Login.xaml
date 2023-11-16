@@ -4,122 +4,145 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:HealthSync"
     xmlns:tool="http://xamarin.com/schemas/2020/toolkit"
+    xmlns:xe="clr-namespace:Xamarin.Essentials;assembly=Xamarin.Essentials"
     Title="Login">
 
-    <ScrollView>
-        <StackLayout>
+    <Grid>
+        <!--  Plavi krug sa zamućenjem  -->
+        <Image
+            Aspect="AspectFill"
+            HeightRequest="230"
+            HorizontalOptions="Start"
+            Opacity="0.5"
+            Source="lijevi_plavi.png"
+            VerticalOptions="Start"
+            WidthRequest="230" />
 
-            <!--  Gornji dio tekst  -->
-            <StackLayout Margin="20">
-                <Label
-                    Margin="0,60,0,0"
-                    FontAttributes="Bold"
-                    FontSize="24"
-                    HorizontalOptions="Center"
-                    Text="Dobrodošli nazad"
-                    TextColor="Black" />
-                <Label
-                    Margin="0,5,0,0"
-                    FontSize="14"
-                    HorizontalOptions="Center"
-                    Text="Možete pretražiti klinike, doktore i"
-                    TextColor="#677294" />
+        <!--  Zeleni krug sa zamućenjem  -->
+        <Image
+            Aspect="AspectFill"
+            HeightRequest="250"
+            HorizontalOptions="End"
+            Opacity="0.5"
+            Source="desni_zeleni.png"
+            VerticalOptions="End"
+            WidthRequest="250" />
 
-                <Label
-                    Margin="0,5,0,0"
-                    FontSize="14"
-                    HorizontalOptions="Center"
-                    Text="napraviti rezervacije kod istih!"
-                    TextColor="#677294" />
+        <ScrollView HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never">
+            <StackLayout>
+
+                <!--  Gornji dio tekst  -->
+                <StackLayout Margin="20">
+                    <Label
+                        Margin="0,60,0,0"
+                        FontAttributes="Bold"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        Text="Dobrodošli nazad"
+                        TextColor="Black" />
+                    <Label
+                        Margin="0,5,0,0"
+                        FontSize="14"
+                        HorizontalOptions="Center"
+                        Text="Možete pretražiti klinike, doktore i"
+                        TextColor="#677294" />
+
+                    <Label
+                        Margin="0,5,0,0"
+                        FontSize="14"
+                        HorizontalOptions="Center"
+                        Text="napraviti rezervacije kod istih!"
+                        TextColor="#677294" />
+                </StackLayout>
+
+                <!--  Forma  -->
+                <StackLayout Margin="20,81,20,20">
+                    <FlexLayout
+                        Margin="0,70,0,20"
+                        AlignItems="Center"
+                        Direction="Row"
+                        JustifyContent="SpaceAround">
+
+                        <!--  Gumb za prijavu putem Google-a  -->
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="google.png" WidthRequest="50" />
+                            <Label
+                                FontSize="16"
+                                HeightRequest="54"
+                                Text="Google"
+                                TextColor="#677294"
+                                VerticalOptions="Center"
+                                VerticalTextAlignment="Center" />
+                        </StackLayout>
+
+                        <!--  Gumb za prijavu putem Facebook-a  -->
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="facebook.png" WidthRequest="50" />
+                            <Label
+                                FontSize="16"
+                                HeightRequest="54"
+                                Text="Facebook"
+                                TextColor="#677294"
+                                VerticalOptions="Center"
+                                VerticalTextAlignment="Center" />
+                        </StackLayout>
+                    </FlexLayout>
+
+                    <!--  Unos za korisničko ime  -->
+                    <Frame
+                        Margin="0,18,0,0"
+                        Padding="5"
+                        BorderColor="#677294"
+                        CornerRadius="6"
+                        HasShadow="False">
+                        <Entry
+                            x:Name="UsernameEntry"
+                            Margin="10,0,0,0"
+                            Placeholder="Korisničko Ime" />
+                    </Frame>
+
+                    <!--  Unos za lozinku  -->
+                    <Frame
+                        Margin="0,18,0,32"
+                        Padding="5"
+                        BorderColor="#677294"
+                        CornerRadius="6"
+                        HasShadow="False">
+                        <Entry
+                            x:Name="PasswordEntry"
+                            Margin="10,0,0,0"
+                            Placeholder="Lozinka" />
+                    </Frame>
+
+                    <!--  Gumb za prijavu  -->
+                    <Button
+                        BackgroundColor="#0EBE7F"
+                        Clicked="NavigateToMain"
+                        FontAttributes="Bold"
+                        HeightRequest="54"
+                        Text="Prijavi se"
+                        VerticalOptions="Center" />
+
+                </StackLayout>
+
+                <!--  Donji dio teksta  -->
+                <StackLayout Margin="20,0,20,0">
+                    <Label
+                        Margin="0,19,0,0"
+                        FontSize="14"
+                        HorizontalOptions="Center"
+                        Text="Zaboravili ste lozinku?"
+                        TextColor="#677294" />
+                    <Button
+                        x:Name="Button1"
+                        Margin="0,124,0,0"
+                        BackgroundColor="Transparent"
+                        Clicked="NavigateToSignIn"
+                        HeightRequest="50"
+                        Text="Nemate račun? Kreiraj račun"
+                        TextColor="#0EBE7F" />
+                </StackLayout>
             </StackLayout>
-
-            <!--  Forma  -->
-            <StackLayout Margin="20,81,20,20">
-                <FlexLayout
-                    Margin="0,70,0,20"
-                    AlignItems="Center"
-                    Direction="Row"
-                    JustifyContent="SpaceAround">
-
-                    <!--  Gumb za prijavu putem Google-a  -->
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="google.png" WidthRequest="50" />
-                        <Label
-                            FontSize="16"
-                            HeightRequest="54"
-                            Text="Google"
-                            TextColor="#677294"
-                            VerticalOptions="Center"
-                            VerticalTextAlignment="Center" />
-                    </StackLayout>
-
-                    <!--  Gumb za prijavu putem Facebook-a  -->
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="facebook.png" WidthRequest="50" />
-                        <Label
-                            FontSize="16"
-                            HeightRequest="54"
-                            Text="Facebook"
-                            TextColor="#677294"
-                            VerticalOptions="Center"
-                            VerticalTextAlignment="Center" />
-                    </StackLayout>
-                </FlexLayout>
-
-                <!--  Unos za korisničko ime  -->
-                <Frame
-                    Margin="0,18,0,0"
-                    Padding="5"
-                    BorderColor="#677294"
-                    CornerRadius="6"
-                    HasShadow="False">
-                    <Entry
-                        x:Name="UsernameEntry"
-                        Margin="10,0,0,0"
-                        Placeholder="Korisničko Ime" />
-                </Frame>
-
-                <!--  Unos za lozinku  -->
-                <Frame
-                    Margin="0,18,0,32"
-                    Padding="5"
-                    BorderColor="#677294"
-                    CornerRadius="6"
-                    HasShadow="False">
-                    <Entry
-                        x:Name="PasswordEntry"
-                        Margin="10,0,0,0"
-                        Placeholder="Lozinka" />
-                </Frame>
-
-                <!--  Gumb za prijavu  -->
-                <Button
-                    BackgroundColor="#0EBE7F"
-                    Clicked="NavigateToMain"
-                    FontAttributes="Bold"
-                    HeightRequest="54"
-                    Text="Prijavi se"
-                    VerticalOptions="Center" />
-
-            </StackLayout>
-
-            <!--  Donji dio teksta  -->
-            <StackLayout Margin="20,0,20,0">
-                <Label
-                    Margin="0,19,0,0"
-                    FontSize="14"
-                    HorizontalOptions="Center"
-                    Text="Zaboravili ste lozinku?"
-                    TextColor="#677294" />
-                <Button
-                    x:Name="Button1"
-                    Margin="0,124,0,0"
-                    BackgroundColor="Transparent"
-                    Clicked="NavigateToSignIn"
-                    HeightRequest="50"
-                    Text="Nemate račun? Kreiraj račun"
-                    TextColor="#0EBE7F" />
-            </StackLayout>
-        </StackLayout>
-    </ScrollView>
+        </ScrollView>
+    </Grid>
 </ContentPage>

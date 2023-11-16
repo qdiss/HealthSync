@@ -55,6 +55,8 @@
 	  <None Remove="Resources\Images\BS1.png" />
 	  <None Remove="Resources\Images\bs2.png" />
 	  <None Remove="Resources\Images\BS3.png" />
+	  <None Remove="Resources\Images\desni_zeleni.png" />
+	  <None Remove="Resources\Images\desni_zeleni.svg" />
 	  <None Remove="Resources\Images\Ellipse 142.svg" />
 	  <None Remove="Resources\Images\Ellipse 143.svg" />
 	  <None Remove="Resources\Images\facebook.png" />
@@ -62,6 +64,8 @@
 	  <None Remove="Resources\Images\google.png" />
 	  <None Remove="Resources\Images\Group.svg" />
 	  <None Remove="Resources\Images\krug2.png" />
+	  <None Remove="Resources\Images\lijevi_plavi.png" />
+	  <None Remove="Resources\Images\lijevi_plavi.svg" />
 	  <None Remove="Resources\Images\oko.svg" />
 	  <None Remove="Resources\Images\srce.svg" />
 	  <None Remove="Resources\Images\srce_crveno.svg" />
@@ -72,6 +76,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -88,6 +93,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\ChooseClinic.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\DoctorTimePick.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\SearchDoctor.xaml">

@@ -36,6 +36,9 @@
     <MauiXaml Update="Pages\ChooseClinic.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\DoctorTimePick.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\SearchDoctor.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

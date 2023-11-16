@@ -130,6 +130,10 @@
               "version": "[1.1.0-alpha03, )",
               "autoReferenced": true
             },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
             "Xamarin.Google.Android.Material": {
               "target": "Package",
               "version": "[1.7.0, )",
@@ -197,6 +201,10 @@
               "target": "Package",
               "version": "[7.0.96, )",
               "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.0, )"
             }
           },
           "imports": [
@@ -255,6 +263,10 @@
               "target": "Package",
               "version": "[7.0.96, )",
               "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.0, )"
             }
           },
           "imports": [
@@ -324,6 +336,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.0, )"
             }
           },
           "imports": [

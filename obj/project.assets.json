@@ -197,6 +197,15 @@
           }
         }
       },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -1727,6 +1736,23 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0",
+          "Xamarin.AndroidX.Browser": "[1.3.0.5, 1.6.0]"
+        },
+        "compile": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Google.Android.Material/1.7.0": {
@@ -2122,6 +2148,15 @@
           }
         }
       },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -3652,6 +3687,23 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0",
+          "Xamarin.AndroidX.Browser": "[1.3.0.5, 1.6.0]"
+        },
+        "compile": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Google.Android.Material/1.7.0": {
@@ -4047,6 +4099,15 @@
           }
         }
       },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -5577,6 +5638,23 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0",
+          "Xamarin.AndroidX.Browser": "[1.3.0.5, 1.6.0]"
+        },
+        "compile": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Google.Android.Material/1.7.0": {
@@ -5972,6 +6050,15 @@
           }
         }
       },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -7502,6 +7589,23 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0",
+          "Xamarin.AndroidX.Browser": "[1.3.0.5, 1.6.0]"
+        },
+        "compile": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Google.Android.Material/1.7.0": {
@@ -7897,6 +8001,15 @@
           }
         }
       },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -9427,6 +9540,23 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0",
+          "Xamarin.AndroidX.Browser": "[1.3.0.5, 1.6.0]"
+        },
+        "compile": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Google.Android.Material/1.7.0": {
@@ -9822,6 +9952,15 @@
           }
         }
       },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -11352,6 +11491,23 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0",
+          "Xamarin.AndroidX.Browser": "[1.3.0.5, 1.6.0]"
+        },
+        "compile": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Google.Android.Material/1.7.0": {
@@ -11747,6 +11903,15 @@
           }
         }
       },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -13277,6 +13442,23 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0",
+          "Xamarin.AndroidX.Browser": "[1.3.0.5, 1.6.0]"
+        },
+        "compile": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Google.Android.Material/1.7.0": {
@@ -13672,6 +13854,15 @@
           }
         }
       },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -15204,6 +15395,23 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
         }
       },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0",
+          "Xamarin.AndroidX.Browser": "[1.3.0.5, 1.6.0]"
+        },
+        "compile": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid13.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Google.Android.Material/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -15583,6 +15791,31 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net7.0-ios16.1/android-arm": {
@@ -15764,6 +15997,31 @@
         },
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -15951,6 +16209,31 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net7.0-ios16.1/android-x64": {
@@ -16132,6 +16415,31 @@
         },
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -16319,6 +16627,31 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
@@ -16500,6 +16833,31 @@
         },
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -16687,6 +17045,31 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net7.0-ios16.1/win10-x64": {
@@ -16868,6 +17251,31 @@
         },
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -17055,6 +17463,31 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
@@ -17236,6 +17669,31 @@
         },
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -17423,6 +17881,31 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
@@ -17604,6 +18087,31 @@
         },
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -17791,6 +18299,31 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
@@ -17972,6 +18505,31 @@
         },
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -18159,6 +18717,31 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
@@ -18340,6 +18923,31 @@
         },
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -18666,6 +19274,31 @@
             "rid": "win10-x86"
           }
         }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
@@ -18960,6 +19593,31 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -19256,6 +19914,31 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
@@ -19550,6 +20233,31 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -19846,6 +20554,31 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
@@ -20141,6 +20874,31 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
@@ -20435,6 +21193,31 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -20736,6 +21519,31 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     }
@@ -21974,6 +22782,53 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/System.Numerics.Vectors.dll",
+        "ref/net45/System.Numerics.Vectors.xml",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.5.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -23753,6 +24608,48 @@
         "xamarin.androidx.window.nuspec"
       ]
     },
+    "Xamarin.Essentials/1.8.0": {
+      "sha512": "g1yB0CkX7BVOx84P0SLm8guypbEfigqjddZsI9KgJzba6yRRcekBqDp6YTT1hO8ZcFcW8VZbsymejTJftJoQyg==",
+      "type": "package",
+      "path": "xamarin.essentials/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/monoandroid13.0/Xamarin.Essentials.dll",
+        "lib/monoandroid13.0/Xamarin.Essentials.pdb",
+        "lib/monoandroid13.0/Xamarin.Essentials.xml",
+        "lib/netstandard1.0/Xamarin.Essentials.dll",
+        "lib/netstandard1.0/Xamarin.Essentials.pdb",
+        "lib/netstandard1.0/Xamarin.Essentials.xml",
+        "lib/netstandard2.0/Xamarin.Essentials.dll",
+        "lib/netstandard2.0/Xamarin.Essentials.pdb",
+        "lib/netstandard2.0/Xamarin.Essentials.xml",
+        "lib/tizen40/Xamarin.Essentials.dll",
+        "lib/tizen40/Xamarin.Essentials.pdb",
+        "lib/tizen40/Xamarin.Essentials.xml",
+        "lib/uap10.0.16299/Xamarin.Essentials.dll",
+        "lib/uap10.0.16299/Xamarin.Essentials.pdb",
+        "lib/uap10.0.16299/Xamarin.Essentials.pri",
+        "lib/uap10.0.16299/Xamarin.Essentials.xml",
+        "lib/xamarinios10/Xamarin.Essentials.dll",
+        "lib/xamarinios10/Xamarin.Essentials.pdb",
+        "lib/xamarinios10/Xamarin.Essentials.xml",
+        "lib/xamarinmac20/Xamarin.Essentials.dll",
+        "lib/xamarinmac20/Xamarin.Essentials.pdb",
+        "lib/xamarinmac20/Xamarin.Essentials.xml",
+        "lib/xamarintvos10/Xamarin.Essentials.dll",
+        "lib/xamarintvos10/Xamarin.Essentials.pdb",
+        "lib/xamarintvos10/Xamarin.Essentials.xml",
+        "lib/xamarinwatchos10/Xamarin.Essentials.dll",
+        "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
+        "lib/xamarinwatchos10/Xamarin.Essentials.xml",
+        "readme.txt",
+        "xamarin.essentials.1.8.0.nupkg.sha512",
+        "xamarin.essentials.nuspec"
+      ]
+    },
     "Xamarin.Google.Android.Material/1.7.0": {
       "sha512": "vs6Ab1HmCXbVGwJs2kSajniepSkFFwdu5wDfb9039swPazAaTWAolNbDOOKDGOS0kivECTL4xKat9kl4OA2EGg==",
       "type": "package",
@@ -23990,6 +24887,7 @@
       "Xamarin.AndroidX.Navigation.Runtime >= 2.5.2.1",
       "Xamarin.AndroidX.Navigation.UI >= 2.5.2.1",
       "Xamarin.AndroidX.Security.SecurityCrypto >= 1.1.0-alpha03",
+      "Xamarin.Essentials >= 1.8.0",
       "Xamarin.Google.Android.Material >= 1.7.0",
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
@@ -23998,14 +24896,16 @@
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.96"
+      "Microsoft.Maui.Graphics >= 7.0.96",
+      "Xamarin.Essentials >= 1.8.0"
     ],
     "net7.0-maccatalyst16.1": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.96"
+      "Microsoft.Maui.Graphics >= 7.0.96",
+      "Xamarin.Essentials >= 1.8.0"
     ],
     "net7.0-windows10.0.19041": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24014,7 +24914,8 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.96",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.96",
-      "Microsoft.WindowsAppSDK >= 1.2.221209.1"
+      "Microsoft.WindowsAppSDK >= 1.2.221209.1",
+      "Xamarin.Essentials >= 1.8.0"
     ]
   },
   "packageFolders": {
@@ -24147,6 +25048,10 @@
             "version": "[1.1.0-alpha03, )",
             "autoReferenced": true
           },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
           "Xamarin.Google.Android.Material": {
             "target": "Package",
             "version": "[1.7.0, )",
@@ -24214,6 +25119,10 @@
             "target": "Package",
             "version": "[7.0.96, )",
             "autoReferenced": true
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.8.0, )"
           }
         },
         "imports": [
@@ -24272,6 +25181,10 @@
             "target": "Package",
             "version": "[7.0.96, )",
             "autoReferenced": true
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.8.0, )"
           }
         },
         "imports": [
@@ -24341,6 +25254,10 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.8.0, )"
           }
         },
         "imports": [

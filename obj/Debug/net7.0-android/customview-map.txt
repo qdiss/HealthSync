@@ -17,6 +17,7 @@ androidx.fragment.app.FragmentContainerView;C:\Users\aklob\Desktop\HealthSync\ob
 androidx.fragment.app.FragmentContainerView;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\154\jl\res\layout\navigationlayout.xml
 attr;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\152\jl\res\values\attrs.xml
 attr;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\154\jl\res\values\attr.xml
+attr;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\159\jl\res\values\attrs.xml
 background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\logo.xml
@@ -24,6 +25,7 @@ background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\logo_round.x
 bitmap;obj\Debug\net7.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 bitmap;obj\Debug\net7.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 cache-path;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\155\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
+cache-path;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\160\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\154\jl\res\values\colors.xml
 color;obj\Debug\net7.0-android\res\values\colors.xml
 color;obj\Debug\net7.0-android\resizetizer\sp\values\maui_colors.xml
@@ -34,8 +36,11 @@ com.google.android.material.appbar.MaterialToolbar;C:\Users\aklob\Desktop\Health
 com.google.android.material.tabs.TabLayout;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\152\jl\res\layout\tabbar.xml
 declare-styleable;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\152\jl\res\values\attrs.xml
 declare-styleable;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\154\jl\res\values\attr.xml
+declare-styleable;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\159\jl\res\values\attrs.xml
 external-cache-path;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\155\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\160\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\155\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\160\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 foreground;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 foreground;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\logo.xml
@@ -51,6 +56,7 @@ layer-list;obj\Debug\net7.0-android\resizetizer\sp\drawable\maui_splash_image.xm
 layer-list;obj\Debug\net7.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 microsoft.maui.controls.platform.compatibility.ShellFlyoutLayout;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\151\jl\res\layout\flyoutcontent.xml
 paths;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\155\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
+paths;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\160\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\151\jl\res\values\strings.xml
 resources;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\152\jl\res\values\attrs.xml
 resources;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\152\jl\res\values\styles.xml
@@ -58,6 +64,7 @@ resources;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\153\jl\r
 resources;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\154\jl\res\values\attr.xml
 resources;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\154\jl\res\values\colors.xml
 resources;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\154\jl\res\values\styles.xml
+resources;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\159\jl\res\values\attrs.xml
 resources;obj\Debug\net7.0-android\res\values\colors.xml
 resources;obj\Debug\net7.0-android\resizetizer\sp\values\maui_colors.xml
 set;C:\Users\aklob\Desktop\HealthSync\obj\Debug\net7.0-android\lp\151\jl\res\anim\enterfromleft.xml

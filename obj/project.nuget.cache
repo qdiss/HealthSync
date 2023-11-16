@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AYdByr7ytmH0Fc6StcskLCe3igXVsjyfFJCWKV59mW0YI3T5NXs6U05m3vsZ9KiAWn91cmcWYaczMX0HtHKUcw==",
+  "dgSpecHash": "rMnd/rzmj8sC1Ml4qJMFetXiqh+cj/+YuUc4w949263hKLTlUerlUfGIKXPJnmWHhwSIviLhg1eD3v+e8Zwv3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\aklob\\Desktop\\HealthSync\\HealthSync.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\aklob\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.96\\microsoft.maui.graphics.win2d.winui.desktop.7.0.96.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\aklob\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\aklob\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\aklob\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\aklob\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\aklob\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",
@@ -90,6 +91,7 @@
     "C:\\Users\\aklob\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.15\\xamarin.androidx.viewpager.1.0.0.15.nupkg.sha512",
     "C:\\Users\\aklob\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.16\\xamarin.androidx.viewpager2.1.0.0.16.nupkg.sha512",
     "C:\\Users\\aklob\\.nuget\\packages\\xamarin.androidx.window\\1.0.0.10\\xamarin.androidx.window.1.0.0.10.nupkg.sha512",
+    "C:\\Users\\aklob\\.nuget\\packages\\xamarin.essentials\\1.8.0\\xamarin.essentials.1.8.0.nupkg.sha512",
     "C:\\Users\\aklob\\.nuget\\packages\\xamarin.google.android.material\\1.7.0\\xamarin.google.android.material.1.7.0.nupkg.sha512",
     "C:\\Users\\aklob\\.nuget\\packages\\xamarin.google.crypto.tink.android\\1.7.0.1\\xamarin.google.crypto.tink.android.1.7.0.1.nupkg.sha512",
     "C:\\Users\\aklob\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.10\\xamarin.google.guava.listenablefuture.1.0.0.10.nupkg.sha512",
