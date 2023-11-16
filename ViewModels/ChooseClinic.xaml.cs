@@ -26,6 +26,12 @@ public partial class ChooseClinic : ContentPage
         await Navigation.PushAsync(new SearchDoctor());
     }
 
+    private async void NavigateToPopular(object sender, EventArgs e)
+    {
+        // Implementirajte kod za navigaciju na drugu stranicu ovdje
+        await Navigation.PushAsync(new PopularDoctor());
+    }
+
 
 
 }

@@ -87,8 +87,12 @@
                     Margin="118,0,0,0"
                     FontSize="12"
                     HorizontalOptions="Center"
-                    Text="Pogledaj sve"
-                    VerticalOptions="Center" />
+                    Text="Pogledaj sve">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="NavigateToPopular" />
+                    </Label.GestureRecognizers>
+                </Label>
+
             </StackLayout>
 
             <!--  Popularni Doktori  Slike  -->
