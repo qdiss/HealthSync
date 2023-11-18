@@ -58,6 +58,7 @@
                         FontSize="18"
                         HorizontalOptions="Center"
                         Text="Pronađi doktora"
+                        TextColor="#000"
                         VerticalOptions="Center" />
                 </StackLayout>
 
@@ -90,12 +91,12 @@
 
                     <!--  Asim Bajrić  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -112,7 +113,7 @@
 
                                 <!--  Naziv Doktora  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
@@ -204,7 +205,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-48,0,0"
                                     Background="#0EBE7F"
                                     Clicked="SelectTime"
                                     FontAttributes="Bold"
@@ -216,12 +217,12 @@
 
                     <!--  Jasmin Fazlić Jala  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -238,7 +239,7 @@
 
                                 <!--  Naziv Doktora  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
@@ -330,7 +331,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-48,0,0"
                                     Background="#0EBE7F"
                                     FontAttributes="Bold"
                                     FontSize="14"
@@ -342,12 +343,12 @@
 
                     <!--  Buba Corelli  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -364,7 +365,7 @@
 
                                 <!--  Naziv Doktora  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
@@ -456,7 +457,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-48,0,0"
                                     Background="#0EBE7F"
                                     FontAttributes="Bold"
                                     FontSize="14"
@@ -468,12 +469,12 @@
 
                     <!--  Dino Merlin  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -490,7 +491,7 @@
 
                                 <!--  Naziv Doktora  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
@@ -582,7 +583,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-48,0,0"
                                     Background="#0EBE7F"
                                     FontAttributes="Bold"
                                     FontSize="14"
@@ -593,7 +594,6 @@
                     </Frame>
 
                 </FlexLayout>
-
             </StackLayout>
         </ScrollView>
     </Grid>

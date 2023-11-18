@@ -287,7 +287,8 @@
                 <Label
                     FontAttributes="Bold"
                     FontSize="18"
-                    Text="Popularni Doktori" />
+                    Text="Popularni Doktori"
+                    TextColor="#000" />
                 <Label
                     Margin="118,0,0,0"
                     FontSize="12"
@@ -375,7 +376,8 @@
                 <Label
                     FontAttributes="Bold"
                     FontSize="18"
-                    Text="Usluge Kantonalne Bolnice" />
+                    Text="Usluge Kantonalne Bolnice"
+                    TextColor="#000" />
                 <Label
                     Margin="0,0,0,0"
                     FontSize="12"
@@ -441,6 +443,7 @@
                                         FontSize="16"
                                         HorizontalOptions="Center"
                                         Text="Pregled"
+                                        TextColor="#000"
                                         VerticalOptions="Center" />
                                     <StackLayout
                                         HorizontalOptions="Center"
@@ -449,12 +452,12 @@
                                         VerticalOptions="Center">
                                         <Label
                                             Margin="0,0,0,0"
-                                            FontSize="12"
+                                            FontSize="14"
                                             Text="20.00"
                                             TextColor="#677294" />
                                         <Label
                                             Margin="0,0,0,0"
-                                            FontSize="12"
+                                            FontSize="14"
                                             Text="BAM"
                                             TextColor="#0EBE7E" />
                                     </StackLayout>
@@ -514,6 +517,7 @@
                                         FontSize="16"
                                         HorizontalOptions="Center"
                                         Text="Ultrazvuk"
+                                        TextColor="#000"
                                         VerticalOptions="Center" />
                                     <StackLayout
                                         HorizontalOptions="Center"
@@ -522,12 +526,12 @@
                                         VerticalOptions="Center">
                                         <Label
                                             Margin="0,0,0,0"
-                                            FontSize="12"
+                                            FontSize="14"
                                             Text="50.00"
                                             TextColor="#677294" />
                                         <Label
                                             Margin="0,0,0,0"
-                                            FontSize="12"
+                                            FontSize="14"
                                             Text="BAM"
                                             TextColor="#0EBE7E" />
                                     </StackLayout>
@@ -537,7 +541,7 @@
                         </FlexLayout>
                     </HorizontalStackLayout>
 
-                    <!--  Drugi Blok  -->
+                    <!--  Treci Blok  -->
                     <HorizontalStackLayout
                         Margin="10,10,0,10"
                         HorizontalOptions="Center"
@@ -587,6 +591,7 @@
                                         FontSize="16"
                                         HorizontalOptions="Center"
                                         Text="Rendgen"
+                                        TextColor="#000"
                                         VerticalOptions="Center" />
                                     <StackLayout
                                         HorizontalOptions="Center"
@@ -595,12 +600,12 @@
                                         VerticalOptions="Center">
                                         <Label
                                             Margin="0,0,0,0"
-                                            FontSize="12"
+                                            FontSize="14"
                                             Text="100.00"
                                             TextColor="#677294" />
                                         <Label
                                             Margin="0,0,0,0"
-                                            FontSize="12"
+                                            FontSize="14"
                                             Text="BAM"
                                             TextColor="#0EBE7E" />
                                     </StackLayout>

@@ -44,9 +44,9 @@
                         VerticalOptions="Center"
                         WidthRequest="44">
                         <Label
-                            Margin="-2,-2,0,0"
+                            Margin="0,0,0,0"
                             FontAttributes="Bold"
-                            FontSize="18"
+                            FontSize="20"
                             HorizontalOptions="Center"
                             Text="&lt;"
                             TextColor="#677294"
@@ -55,19 +55,25 @@
                 </StackLayout>
 
                 <!--  Popularni Doktori Tekst Iznad  -->
-                <StackLayout Margin="20,20,0,0" Orientation="Horizontal">
+                <FlexLayout Margin="20,20,0,0" JustifyContent="SpaceBetween">
                     <Label
                         FontAttributes="Bold"
                         FontSize="18"
-                        Text="Popularni Doktori" />
+                        Text="Popularni Doktori"
+                        TextColor="Black" />
                     <Label
-                        Margin="130,0,0,0"
+                        Margin="0,0,10,0"
+                        FontFamily="#Rubik-VariableFont_wght"
                         FontSize="12"
                         HorizontalOptions="End"
-                        Text="Pogledaj sve"
-                        VerticalOptions="Center" />
+                        Text="Pogledaj sve &gt;"
+                        VerticalOptions="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="NavigateToAllPopularDoctors" />
+                        </Label.GestureRecognizers>
+                    </Label>
 
-                </StackLayout>
+                </FlexLayout>
 
                 <!--  Popularni Doktori  Slike  -->
                 <FlexLayout Direction="Row" JustifyContent="Start">
@@ -179,14 +185,15 @@
                 </FlexLayout>
 
                 <!--  Doktori Po Kategorijama  -->
-                <StackLayout Margin="10,20,10,0">
+                <StackLayout Margin="20,20,10,0">
                     <Label
                         FontAttributes="Bold"
                         FontSize="18"
-                        Text="Doktori Po Kategorijama" />
+                        Text="Doktori Po Kategorijama"
+                        TextColor="#000" />
 
                     <!--  Asim Medicina  -->
-                    <Frame Margin="10,20,10,0" BackgroundColor="AntiqueWhite">
+                    <Frame Margin="0,20,10,0" BorderColor="Transparent">
                         <StackLayout Orientation="Horizontal">
                             <Frame
                                 Padding="0"
@@ -224,6 +231,7 @@
 
                             </StackLayout>
                             <StackLayout
+                                Margin="80,0,0,0"
                                 HorizontalOptions="End"
                                 Orientation="Vertical"
                                 Spacing="10"
@@ -236,8 +244,7 @@
                                     VerticalOptions="Center"
                                     WidthRequest="20" />
                                 <Label
-                                    Margin="50,0,0,0"
-                                    FontAttributes="Bold"
+                                    Margin="0,0,0,0"
                                     FontSize="14"
                                     HorizontalOptions="End"
                                     Text="2.4 %"
@@ -250,7 +257,7 @@
 
                 <!--  Amar Stomatolog  -->
                 <StackLayout Margin="10,0,10,0">
-                    <Frame Margin="10,20,10,0" BackgroundColor="AntiqueWhite">
+                    <Frame Margin="10,20,10,0" BorderColor="Transparent">
                         <StackLayout Orientation="Horizontal">
                             <Frame
                                 Margin="-6,0,0,0"
@@ -289,7 +296,7 @@
 
                             </StackLayout>
                             <StackLayout
-                                Margin="0,0,0,0"
+                                Margin="30,0,0,0"
                                 HorizontalOptions="Center"
                                 Orientation="Vertical"
                                 Spacing="10"
@@ -303,7 +310,6 @@
                                     WidthRequest="20" />
                                 <Label
                                     Margin="0,0,0,0"
-                                    FontAttributes="Bold"
                                     FontSize="14"
                                     HorizontalOptions="Start"
                                     Text="2.8%"
@@ -316,7 +322,7 @@
 
                 <!--  Hamza Stomatolog  -->
                 <StackLayout Margin="10,0,10,0">
-                    <Frame Margin="10,20,10,0" BackgroundColor="AntiqueWhite">
+                    <Frame Margin="10,20,10,0" BorderColor="Transparent">
                         <StackLayout Orientation="Horizontal">
                             <Frame
                                 Margin="-6,0,0,0"
@@ -355,7 +361,7 @@
 
                             </StackLayout>
                             <StackLayout
-                                Margin="0,0,0,0"
+                                Margin="38,0,0,0"
                                 HorizontalOptions="Center"
                                 Orientation="Vertical"
                                 Spacing="10"
@@ -369,7 +375,71 @@
                                     WidthRequest="20" />
                                 <Label
                                     Margin="0,0,0,0"
+                                    FontSize="14"
+                                    HorizontalOptions="Start"
+                                    Text="2.8%"
+                                    TextColor="Black"
+                                    VerticalOptions="Center" />
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+                <!--  Semin Ginekolog  -->
+                <StackLayout Margin="10,0,10,20">
+                    <Frame Margin="10,20,10,0" BorderColor="Transparent">
+                        <StackLayout Orientation="Horizontal">
+                            <Frame
+                                Margin="-6,0,0,0"
+                                Padding="0"
+                                CornerRadius="20"
+                                HorizontalOptions="Start"
+                                VerticalOptions="Start">
+                                <Image
+                                    Aspect="AspectFill"
+                                    HeightRequest="80"
+                                    HorizontalOptions="Center"
+                                    Source="adis.png"
+                                    VerticalOptions="Center"
+                                    WidthRequest="80" />
+                            </Frame>
+                            <StackLayout
+                                HorizontalOptions="Center"
+                                Orientation="Vertical"
+                                Spacing="10"
+                                VerticalOptions="Center">
+                                <Label
+                                    Margin="5,0,0,0"
                                     FontAttributes="Bold"
+                                    FontSize="18"
+                                    HorizontalOptions="Start"
+                                    Text="Dr. Semin Murtic"
+                                    TextColor="Black"
+                                    VerticalOptions="Center" />
+                                <Label
+                                    Margin="5,0,0,0"
+                                    FontSize="13"
+                                    HorizontalOptions="Start"
+                                    Text="Ginekolog"
+                                    TextColor="#677294"
+                                    VerticalOptions="Center" />
+
+                            </StackLayout>
+                            <StackLayout
+                                Margin="50,0,0,0"
+                                HorizontalOptions="Center"
+                                Orientation="Vertical"
+                                Spacing="10"
+                                VerticalOptions="Center">
+                                <Image
+                                    Margin="0,0,0,0"
+                                    HeightRequest="20"
+                                    HorizontalOptions="End"
+                                    Source="srce_prazno.png"
+                                    VerticalOptions="Center"
+                                    WidthRequest="20" />
+                                <Label
+                                    Margin="16,0,0,0"
                                     FontSize="14"
                                     HorizontalOptions="Start"
                                     Text="2.8%"
@@ -382,6 +452,5 @@
 
             </StackLayout>
         </ScrollView>
-
     </Grid>
 </ContentPage>

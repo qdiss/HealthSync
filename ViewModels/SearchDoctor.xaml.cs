@@ -2,9 +2,9 @@ namespace HealthSync.Pages;
 
 public partial class SearchDoctor : ContentPage
 {
-	public SearchDoctor()
-	{
-		InitializeComponent();
+    public SearchDoctor()
+    {
+        InitializeComponent();
 
         // NavBar sakrivanje
         NavigationPage.SetHasNavigationBar(this, false);

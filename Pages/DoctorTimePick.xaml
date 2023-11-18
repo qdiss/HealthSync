@@ -24,7 +24,7 @@
             Source="desni_zeleni.png"
             VerticalOptions="End"
             WidthRequest="250" />
-        
+
         <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
             <StackLayout>
 
@@ -58,6 +58,7 @@
                         FontSize="18"
                         HorizontalOptions="Center"
                         Text="Odaberi Vrijeme"
+                        TextColor="#000"
                         VerticalOptions="Center" />
                 </StackLayout>
 
@@ -90,18 +91,21 @@
                                 FontSize="16"
                                 HorizontalTextAlignment="Center"
                                 Text="Dr. Asim Bajrić"
+                                TextColor="#000"
                                 VerticalTextAlignment="Center" />
                             <Label
                                 Margin="10,0,0,0"
                                 FontSize="12"
                                 HorizontalTextAlignment="Center"
                                 Text="Kantonalna Bolnica"
+                                TextColor="#000"
                                 VerticalTextAlignment="Center" />
                             <Label
                                 Margin="10,0,0,0"
                                 FontSize="12"
                                 HorizontalTextAlignment="Center"
-                                Text="Pulmolog" />
+                                Text="Pulmolog"
+                                TextColor="#000" />
                         </StackLayout>
 
                     </StackLayout>
@@ -123,6 +127,7 @@
                                     FontSize="17"
                                     HorizontalTextAlignment="Center"
                                     Text="{Binding TodayLabel}"
+                                    TextColor="#000"
                                     VerticalTextAlignment="Center" />
                                 <Label
                                     FontSize="11"
@@ -140,7 +145,7 @@
                                 Orientation="Vertical"
                                 WidthRequest="130">
                                 <Label
-                                    Margin="0,0,0,5"
+                                    Margin="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="18"
                                     HorizontalTextAlignment="Center"
@@ -163,11 +168,12 @@
                                 Orientation="Vertical"
                                 WidthRequest="150">
                                 <Label
-                                    Margin="0,0,0,5"
+                                    Margin="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="17"
                                     HorizontalTextAlignment="Center"
                                     Text="{Binding DayAfterTomorrowLabel}"
+                                    TextColor="#000"
                                     VerticalTextAlignment="Center" />
                                 <Label
                                     FontSize="11"
@@ -196,6 +202,7 @@
                         HorizontalTextAlignment="Center"
                         LineBreakMode="NoWrap"
                         Text="{Binding TodayLabel}"
+                        TextColor="#000"
                         VerticalTextAlignment="Center" />
                 </StackLayout>
 
@@ -207,6 +214,7 @@
                         FontSize="18"
                         HorizontalTextAlignment="Start"
                         Text="Poslijepodne 5 mjesta"
+                        TextColor="#000"
                         VerticalTextAlignment="Start" />
                     <FlexLayout
                         x:Name="flexLayout"
@@ -337,6 +345,7 @@
                         FontSize="18"
                         HorizontalTextAlignment="Start"
                         Text="Predveče 4 mjesta"
+                        TextColor="#000"
                         VerticalTextAlignment="Start" />
                     <FlexLayout
                         x:Name="eveningFlexLayout"

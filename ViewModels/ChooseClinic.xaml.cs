@@ -2,9 +2,9 @@ namespace HealthSync.Pages;
 
 public partial class ChooseClinic : ContentPage
 {
-	public ChooseClinic()
-	{
-		InitializeComponent();
+    public ChooseClinic()
+    {
+        InitializeComponent();
 
         // NavBar sakrivanje
         NavigationPage.SetHasNavigationBar(this, false);

@@ -56,6 +56,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.ChooseCli
 build_metadata.AdditionalFiles.TargetPath = Pages\ChooseClinic.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\ChooseClinic.xaml
 
+[C:/Users/aklob/Desktop/HealthSync/Pages/DoctorDetails.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.DoctorDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DoctorDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DoctorDetails.xaml
+
 [C:/Users/aklob/Desktop/HealthSync/Pages/DoctorTimePick.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.DoctorTimePick.xaml
@@ -73,6 +79,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.PopularDoctor.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\PopularDoctor.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\PopularDoctor.xaml
+
+[C:/Users/aklob/Desktop/HealthSync/Pages/PopularDoctorsAll.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.PopularDoctorsAll.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PopularDoctorsAll.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PopularDoctorsAll.xaml
 
 [C:/Users/aklob/Desktop/HealthSync/Pages/SearchDoctor.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

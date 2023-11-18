@@ -25,7 +25,7 @@
                     </Frame.Background>
                     <StackLayout>
                         <Label
-                            Margin="20,43,0,0"
+                            Margin="20,26,0,0"
                             FontSize="20"
                             Text="Hi Adis!"
                             TextColor="#FAFAFA" />
@@ -82,7 +82,8 @@
                 <Label
                     FontAttributes="Bold"
                     FontSize="18"
-                    Text="Popularni Doktori" />
+                    Text="Popularni Doktori"
+                    TextColor="Black" />
                 <Label
                     Margin="118,0,0,0"
                     FontSize="12"
@@ -216,12 +217,12 @@
 
                     <!--  Citava ustanova Bolnica  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -237,12 +238,12 @@
 
                                 <!--  Naziv Ustanove  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
                                     Text="Kantonalna Bolnica"
-                                    TextColor="#333333" />
+                                    TextColor="Black" />
 
                                 <!--  Adresa  -->
                                 <Label
@@ -324,7 +325,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-52,0,0"
                                     Background="#0EBE7F"
                                     Clicked="GoToBolnica"
                                     FontAttributes="Bold"
@@ -337,12 +338,12 @@
 
                     <!--  Citava ustanova JU Dom Zdravlja  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -358,12 +359,12 @@
 
                                 <!--  Naziv Ustanove  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
                                     Text="JU Dom Zdravlja"
-                                    TextColor="#333333" />
+                                    TextColor="#000" />
 
                                 <!--  Adresa  -->
                                 <Label
@@ -445,7 +446,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-52,0,0"
                                     Background="#0EBE7F"
                                     Clicked="GoToBolnica"
                                     FontAttributes="Bold"
@@ -458,12 +459,12 @@
 
                     <!--  Citava ustanova Stacionar  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -479,7 +480,7 @@
 
                                 <!--  Naziv Ustanove  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
@@ -566,7 +567,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-52,0,0"
                                     Background="#0EBE7F"
                                     FontAttributes="Bold"
                                     FontSize="12"
@@ -578,12 +579,12 @@
 
                     <!--  Citava ustanova  Poliklinika Sunce  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -599,7 +600,7 @@
 
                                 <!--  Naziv Ustanove  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
@@ -686,7 +687,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-52,0,0"
                                     Background="#0EBE7F"
                                     FontAttributes="Bold"
                                     FontSize="12"
@@ -698,12 +699,12 @@
 
                     <!--  Citava ustanova Poliklinika Medicom  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -719,12 +720,12 @@
 
                                 <!--  Naziv Ustanove  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
                                     Text="Poliklinika Medicom"
-                                    TextColor="#333333" />
+                                    TextColor="#000" />
 
                                 <!--  Adresa  -->
                                 <Label
@@ -806,7 +807,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-52,0,0"
                                     Background="#0EBE7F"
                                     FontAttributes="Bold"
                                     FontSize="12"
@@ -818,12 +819,12 @@
 
                     <!--  Citava ustanova Poliklinika Epion  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -839,12 +840,12 @@
 
                                 <!--  Naziv Ustanove  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
                                     Text="Poliklinika Epion"
-                                    TextColor="#333333" />
+                                    TextColor="#000" />
 
                                 <!--  Adresa  -->
                                 <Label
@@ -926,7 +927,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-52,0,0"
                                     Background="#0EBE7F"
                                     FontAttributes="Bold"
                                     FontSize="12"
@@ -938,12 +939,12 @@
 
                     <!--  Citava ustanova NOVA Poliklinika  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -959,12 +960,12 @@
 
                                 <!--  Naziv Ustanove  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
                                     Text="NOVA Poliklinika"
-                                    TextColor="#333333" />
+                                    TextColor="#000" />
 
                                 <!--  Adresa  -->
                                 <Label
@@ -1046,7 +1047,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-52,0,0"
                                     Background="#0EBE7F"
                                     FontAttributes="Bold"
                                     FontSize="12"
@@ -1058,12 +1059,12 @@
 
                     <!--  Citava ustanova Poliklinika Dr.Šabić  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -1079,12 +1080,12 @@
 
                                 <!--  Naziv Ustanove  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
                                     Text="Poliklinika Dr.Šabić"
-                                    TextColor="#333333" />
+                                    TextColor="#000" />
 
                                 <!--  Adresa  -->
                                 <Label
@@ -1166,7 +1167,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-52,0,0"
                                     Background="#0EBE7F"
                                     FontAttributes="Bold"
                                     FontSize="12"
@@ -1178,12 +1179,12 @@
 
                     <!--  Citava ustanova Poliklinika Prima  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -1199,12 +1200,12 @@
 
                                 <!--  Naziv Ustanove  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
                                     Text="Poliklinika Prima"
-                                    TextColor="#333333" />
+                                    TextColor="#000" />
 
                                 <!--  Adresa  -->
                                 <Label
@@ -1286,7 +1287,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-52,0,0"
                                     Background="#0EBE7F"
                                     FontAttributes="Bold"
                                     FontSize="12"
@@ -1298,12 +1299,12 @@
 
                     <!--  Citava ustanova Poliklinika Zdravlje  -->
                     <Frame
-                        Padding="12,-30,20,0"
+                        Padding="12,-30,20,20"
                         BackgroundColor="#FFFFFF"
                         BorderColor="Transparent"
                         CornerRadius="8"
                         HasShadow="True"
-                        HeightRequest="190"
+                        HeightRequest="210"
                         WidthRequest="370">
                         <FlexLayout AlignItems="Center" Direction="Row">
 
@@ -1319,12 +1320,12 @@
 
                                 <!--  Naziv Ustanove  -->
                                 <Label
-                                    Margin="-10,26,0,5"
+                                    Margin="-10,36,0,0"
                                     Padding="0,0,0,0"
                                     FontAttributes="Bold"
                                     FontSize="20"
                                     Text="Poliklinika Zdravlje"
-                                    TextColor="#333333" />
+                                    TextColor="#000" />
 
                                 <!--  Adresa  -->
                                 <Label
@@ -1406,7 +1407,7 @@
 
                                 <!--  Dugme  -->
                                 <Button
-                                    Margin="0,-42,0,0"
+                                    Margin="0,-52,0,0"
                                     Background="#0EBE7F"
                                     Clicked="GoToBolnica"
                                     FontAttributes="Bold"

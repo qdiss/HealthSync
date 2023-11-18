@@ -2,9 +2,9 @@ namespace HealthSync.Pages;
 
 public partial class BoardingScreen2 : ContentPage
 {
-	public BoardingScreen2()
-	{
-		InitializeComponent();
+    public BoardingScreen2()
+    {
+        InitializeComponent();
 
         // NavBar sakrivanje
         NavigationPage.SetHasNavigationBar(this, false);

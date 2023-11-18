@@ -2,8 +2,8 @@ namespace HealthSync.Pages;
 
 public partial class BoardingScreen1 : ContentPage
 {
-	public BoardingScreen1()
-	{
+    public BoardingScreen1()
+    {
         InitializeComponent();
 
         // NavBar sakrivanje

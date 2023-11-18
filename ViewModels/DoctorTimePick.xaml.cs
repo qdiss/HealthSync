@@ -8,7 +8,7 @@ public partial class DoctorTimePick : ContentPage
 
     Frame selectedFrame;
     public DoctorTimePick()
-	{
+    {
         InitializeComponent();
         flexLayoutContainer = (FlexLayout)this.FindByName("flexLayout");
 
@@ -66,7 +66,7 @@ public partial class DoctorTimePick : ContentPage
                 {
                     if (label is Label labelControl)
                     {
-                        labelControl.TextColor = Color.FromRgb(14,190,127);
+                        labelControl.TextColor = Color.FromRgb(14, 190, 127);
                     }
                 }
             }

@@ -50,6 +50,7 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\AppIcon\logo.svg" />
+	  <None Remove="Resources\Fonts\Rubik-VariableFont_wght.ttf" />
 	  <None Remove="Resources\Images\abdomen.svg" />
 	  <None Remove="Resources\Images\bolnica.png" />
 	  <None Remove="Resources\Images\BS1.png" />
@@ -70,6 +71,7 @@
 	  <None Remove="Resources\Images\srce.svg" />
 	  <None Remove="Resources\Images\srce_crveno.svg" />
 	  <None Remove="Resources\Images\srce_prazno.svg" />
+	  <None Remove="Resources\Images\star.png" />
 	  <None Remove="Resources\Images\star.svg" />
 	  <None Remove="Resources\Images\zub.svg" />
 	</ItemGroup>
@@ -101,10 +103,16 @@
 	  <MauiXaml Update="Pages\ChooseClinic.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\DoctorDetails.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\DoctorTimePick.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\PopularDoctor.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\PopularDoctorsAll.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\SearchDoctor.xaml">

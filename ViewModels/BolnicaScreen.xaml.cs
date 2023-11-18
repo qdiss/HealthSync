@@ -2,11 +2,11 @@ namespace HealthSync.Pages;
 
 public partial class BolnicaScreen : ContentPage
 {
-	public BolnicaScreen()
-	{
-		InitializeComponent();
+    public BolnicaScreen()
+    {
+        InitializeComponent();
 
-		// NavBar sakrivanje
-            NavigationPage.SetHasNavigationBar(this, false);
-	}
+        // NavBar sakrivanje
+        NavigationPage.SetHasNavigationBar(this, false);
+    }
 }
