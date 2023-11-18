@@ -9,4 +9,10 @@ public partial class DoctorDetails : ContentPage
         // NavBar sakrivanje
         NavigationPage.SetHasNavigationBar(this, false);
     }
+
+    //Navigiraj na novu stranicu
+    private async void NavigateToRezervacija(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Rezervacija());
+    }
 }

@@ -68,6 +68,8 @@
 	  <None Remove="Resources\Images\lijevi_plavi.png" />
 	  <None Remove="Resources\Images\lijevi_plavi.svg" />
 	  <None Remove="Resources\Images\oko.svg" />
+	  <None Remove="Resources\Images\plus.png" />
+	  <None Remove="Resources\Images\plusic.png" />
 	  <None Remove="Resources\Images\srce.svg" />
 	  <None Remove="Resources\Images\srce_crveno.svg" />
 	  <None Remove="Resources\Images\srce_prazno.svg" />
@@ -113,6 +115,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\PopularDoctorsAll.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Rezervacija.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\RezervacijaPotvrda.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\SearchDoctor.xaml">

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="HealthSync.Pages.RezervacijaPotvrda"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="RezervacijaPotvrda">
+    <Grid>
+        <!--  Plavi krug sa zamućenjem  -->
+        <Image
+            Aspect="AspectFill"
+            HeightRequest="270"
+            HorizontalOptions="Start"
+            Opacity="0.5"
+            Source="lijevi_plavi.png"
+            VerticalOptions="Start"
+            WidthRequest="270" />
+
+        <!--  Zeleni krug sa zamućenjem  -->
+        <Image
+            Aspect="AspectFill"
+            HeightRequest="250"
+            HorizontalOptions="End"
+            Opacity="0.5"
+            Source="desni_zeleni.png"
+            VerticalOptions="End"
+            WidthRequest="250" />
+
+        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <StackLayout>
+
+                <!--  Title & Vrati nazad  -->
+                <StackLayout
+                    Margin="20,10,0,0"
+                    HorizontalOptions="Start"
+                    Orientation="Horizontal"
+                    Spacing="20"
+                    VerticalOptions="Start">
+                    <Frame
+                        Padding="0,0,0,0"
+                        BackgroundColor="#Fff"
+                        BorderColor="Transparent"
+                        CornerRadius="14"
+                        HeightRequest="44"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        WidthRequest="44">
+                        <Label
+                            Margin="-2,-2,0,0"
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            HorizontalOptions="Center"
+                            Text="&lt;"
+                            TextColor="#677294"
+                            VerticalOptions="Center" />
+                    </Frame>
+
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        HorizontalOptions="Center"
+                        Text="Rezervacija"
+                        TextColor="#000"
+                        VerticalOptions="Center" />
+                </StackLayout>
+
+                <!--  Kalendar  TREBA GA DODAT  -->
+                <Frame Margin="20" HeightRequest="280">
+                    <StackLayout VerticalOptions="Center">
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="30"
+                            HorizontalTextAlignment="Center"
+                            Text="DODATI KALENDAR"
+                            VerticalTextAlignment="Center" />
+                    </StackLayout>
+                </Frame>
+
+                <!--  Vrijeme  -->
+
+
+                <!--  Dostupno Vrijeme  -->
+                <StackLayout Orientation="Vertical">
+                    <Label
+                        Margin="20"
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        HorizontalTextAlignment="Start"
+                        Text="Dostupno Vrijeme"
+                        TextColor="#000"
+                        VerticalTextAlignment="Start" />
+                    <FlexLayout
+                        x:Name="flexLayout"
+                        Margin="20,10,20,10"
+                        AlignContent="Start"
+                        AlignItems="Start"
+                        Direction="Row"
+                        JustifyContent="SpaceAround"
+                        Wrap="Wrap">
+
+                        <Frame
+                            x:Name="frame1"
+                            BorderColor="Transparent"
+                            HeightRequest="60"
+                            WidthRequest="76">
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                Text="13:00"
+                                TextColor="#0EBE7F" />
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnFrameTapped" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+
+                        <Frame
+                            x:Name="frame2"
+                            BorderColor="Transparent"
+                            HeightRequest="60"
+                            WidthRequest="76">
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                Text="13:30"
+                                TextColor="#0EBE7F" />
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnFrameTapped" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+
+                        <Frame
+                            x:Name="frame3"
+                            BackgroundColor="#0EBE7F"
+                            BorderColor="Transparent"
+                            HeightRequest="60"
+                            WidthRequest="76">
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                Text="14:00"
+                                TextColor="#FFF" />
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnFrameTapped" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+
+                        <Frame
+                            x:Name="frame4"
+                            BorderColor="Transparent"
+                            HeightRequest="60"
+                            WidthRequest="76">
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                Text="14:30"
+                                TextColor="#0EBE7F" />
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnFrameTapped" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+
+                    </FlexLayout>
+                </StackLayout>
+
+                <!--  Napomeni me prije  -->
+                <StackLayout Orientation="Vertical">
+                    <Label
+                        Margin="20"
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        HorizontalTextAlignment="Start"
+                        Text="Napomeni me prije (Minute)"
+                        TextColor="#000"
+                        VerticalTextAlignment="Start" />
+                    <FlexLayout
+                        x:Name="eveningFlexLayout"
+                        Margin="20,10,20,10"
+                        AlignContent="Start"
+                        AlignItems="Start"
+                        Direction="Row"
+                        JustifyContent="SpaceAround"
+                        Wrap="Wrap">
+
+                        <!--  Duplicirani kod za predveče  -->
+                        <Frame
+                            x:Name="eveningFrame1"
+                            BorderColor="Transparent"
+                            HeightRequest="60"
+                            WidthRequest="76">
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                Text="40"
+                                TextColor="#0EBE7F" />
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnEveningFrameTapped" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+
+                        <Frame
+                            x:Name="eveningFrame2"
+                            BorderColor="Transparent"
+                            HeightRequest="60"
+                            WidthRequest="76">
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                Text="35"
+                                TextColor="#0EBE7F" />
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnEveningFrameTapped" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+
+                        <Frame
+                            x:Name="eveningFrame3"
+                            BorderColor="Transparent"
+                            HeightRequest="60"
+                            WidthRequest="76">
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                Text="30"
+                                TextColor="#0EBE7F" />
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnEveningFrameTapped" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+
+                        <Frame
+                            x:Name="eveningFrame4"
+                            BorderColor="Transparent"
+                            HeightRequest="60"
+                            WidthRequest="76">
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                Text="25"
+                                TextColor="#0EBE7F" />
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnEveningFrameTapped" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+
+                    </FlexLayout>
+
+                    <Button
+                        Margin="20"
+                        BackgroundColor="#0EBE7F"
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        HeightRequest="54"
+                        HorizontalOptions="Center"
+                        Text="Potvrdi"
+                        VerticalOptions="Center"
+                        WidthRequest="300" />
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

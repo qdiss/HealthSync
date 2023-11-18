@@ -10826,16 +10826,18 @@ public final class R {
     public static final int notification_tile_bg=0x7f0700db;
     public static final int notify_panel_notification_icon_bg=0x7f0700dc;
     public static final int oko=0x7f0700dd;
-    public static final int splash=0x7f0700de;
-    public static final int splashscreen=0x7f0700df;
-    public static final int srce=0x7f0700e0;
-    public static final int srce_crveno=0x7f0700e1;
-    public static final int srce_prazno=0x7f0700e2;
-    public static final int star=0x7f0700e3;
-    public static final int test_level_drawable=0x7f0700e4;
-    public static final int tooltip_frame_dark=0x7f0700e5;
-    public static final int tooltip_frame_light=0x7f0700e6;
-    public static final int zub=0x7f0700e7;
+    public static final int plus=0x7f0700de;
+    public static final int plusic=0x7f0700df;
+    public static final int splash=0x7f0700e0;
+    public static final int splashscreen=0x7f0700e1;
+    public static final int srce=0x7f0700e2;
+    public static final int srce_crveno=0x7f0700e3;
+    public static final int srce_prazno=0x7f0700e4;
+    public static final int star=0x7f0700e5;
+    public static final int test_level_drawable=0x7f0700e6;
+    public static final int tooltip_frame_dark=0x7f0700e7;
+    public static final int tooltip_frame_light=0x7f0700e8;
+    public static final int zub=0x7f0700e9;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
