@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="HealthSync.Pages.SearchDoctor"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="SearchDoctor">
+
+    <Grid>
+        <!--  Plavi krug sa zamućenjem  -->
+        <Image
+            Aspect="AspectFill"
+            HeightRequest="300"
+            HorizontalOptions="Start"
+            Opacity="0.5"
+            Source="lijevi_plavi.png"
+            VerticalOptions="Start"
+            WidthRequest="270" />
+
+        <!--  Zeleni krug sa zamućenjem  -->
+        <Image
+            Aspect="AspectFill"
+            HeightRequest="250"
+            HorizontalOptions="End"
+            Opacity="0.5"
+            Source="desni_zeleni.png"
+            VerticalOptions="End"
+            WidthRequest="250" />
+
+        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <StackLayout>
+
+                <!--  Title & Vrati nazad  -->
+                <StackLayout
+                    Margin="20,10,0,0"
+                    HorizontalOptions="Start"
+                    Orientation="Horizontal"
+                    Spacing="20"
+                    VerticalOptions="Start">
+                    <Frame
+                        Padding="0,0,0,0"
+                        BackgroundColor="#FFF"
+                        BorderColor="Transparent"
+                        HeightRequest="44"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        WidthRequest="44">
+                        <Label
+                            Margin="-2,-2,0,0"
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            HorizontalOptions="Center"
+                            Text="&lt;"
+                            TextColor="#677294"
+                            VerticalOptions="Center" />
+                    </Frame>
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        HorizontalOptions="Center"
+                        Text="Pronađi doktora"
+                        TextColor="#000"
+                        VerticalOptions="Center" />
+                </StackLayout>
+
+                <!--  Search  -->
+                <StackLayout
+                    Margin="20"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                    <Frame Padding="0">
+                        <SearchBar
+                            Margin="0,0,0,0"
+                            BackgroundColor="#FFF"
+                            CancelButtonColor="#677294"
+                            FontSize="15"
+                            HeightRequest="50"
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Start"
+                            Placeholder="Pretraga"
+                            TextColor="#677294"
+                            VerticalOptions="Center" />
+                    </Frame>
+                </StackLayout>
+
+                <!--  Lista doktora  -->
+                <FlexLayout
+                    Margin="20"
+                    AlignItems="Start"
+                    Direction="Column"
+                    JustifyContent="Start">
+
+                    <!--  Asim Bajrić  -->
+                    <Frame
+                        Padding="12,-30,20,20"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="210"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Doktora  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Doktora  -->
+                                <Label
+                                    Margin="-10,36,0,0"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="Dr. Asim Bajrić"
+                                    TextColor="#333333" />
+
+                                <!--  Specijalnost  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Pulmolog"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Mjesto Posla  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="Kantonalna Bolnica"
+                                    TextColor="#677294" />
+
+                                <!--  Recenzija Doktora  -->
+                                <FlexLayout
+                                    Margin="-10,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    HorizontalOptions="Start"
+                                    WidthRequest="180">
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,0,0,0"
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="98%"
+                                        TextColor="#677294"
+                                        VerticalTextAlignment="Center" />
+
+                                </FlexLayout>
+
+                                <!--  Priče Pacijenata  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    HorizontalOptions="Center"
+                                    WidthRequest="195">
+                                    <Frame
+                                        Margin="26,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="69"
+                                        TextColor="#677294"
+                                        VerticalTextAlignment="Center" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="Priča Pacijenata"
+                                        TextColor="#677294"
+                                        VerticalTextAlignment="Center" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontAttributes="Bold"
+                                        FontSize="13"
+                                        Text="Sljedeća dostupnost"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="12:00 Sutra"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-48,0,0"
+                                    Background="#0EBE7F"
+                                    Clicked="SelectTime"
+                                    FontAttributes="Bold"
+                                    FontSize="14"
+                                    Text="Rezerviši" />
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                    <!--  Jasmin Fazlić Jala  -->
+                    <Frame
+                        Padding="12,-30,20,20"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="210"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Doktora  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Doktora  -->
+                                <Label
+                                    Margin="-10,36,0,0"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="Dr. Jasmin Fazlić"
+                                    TextColor="#333333" />
+
+                                <!--  Specijalnost  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Traumatolog"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Mjesto Posla  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="Poliklinika Medicom"
+                                    TextColor="#677294" />
+
+                                <!--  Recenzija Doktora  -->
+                                <FlexLayout
+                                    Margin="-10,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    HorizontalOptions="Start"
+                                    WidthRequest="180">
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,0,0,0"
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="94%"
+                                        TextColor="#677294"
+                                        VerticalTextAlignment="Center" />
+
+                                </FlexLayout>
+
+                                <!--  Priče Pacijenata  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    HorizontalOptions="Center"
+                                    WidthRequest="195">
+                                    <Frame
+                                        Margin="26,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="54"
+                                        TextColor="#677294"
+                                        VerticalTextAlignment="Center" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="Priča Pacijenata"
+                                        TextColor="#677294"
+                                        VerticalTextAlignment="Center" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontAttributes="Bold"
+                                        FontSize="13"
+                                        Text="Sljedeća dostupnost"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="10:00 Sutra"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-48,0,0"
+                                    Background="#0EBE7F"
+                                    FontAttributes="Bold"
+                                    FontSize="14"
+                                    Text="Rezerviši" />
+
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                    <!--  Buba Corelli  -->
+                    <Frame
+                        Padding="12,-30,20,20"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="210"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Doktora  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Doktora  -->
+                                <Label
+                                    Margin="-10,36,0,0"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="Dr. Buba Corelli"
+                                    TextColor="#333333" />
+
+                                <!--  Specijalnost  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Ginekolog"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Mjesto Posla  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="Stacionar"
+                                    TextColor="#677294" />
+
+                                <!--  Recenzija Doktora  -->
+                                <FlexLayout
+                                    Margin="-10,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    HorizontalOptions="Start"
+                                    WidthRequest="180">
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,0,0,0"
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="90%"
+                                        TextColor="#677294"
+                                        VerticalTextAlignment="Center" />
+
+                                </FlexLayout>
+
+                                <!--  Priče Pacijenata  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    HorizontalOptions="Center"
+                                    WidthRequest="195">
+                                    <Frame
+                                        Margin="26,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="400+"
+                                        TextColor="#677294"
+                                        VerticalTextAlignment="Center" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="Priča Pacijenata"
+                                        TextColor="#677294"
+                                        VerticalTextAlignment="Center" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontAttributes="Bold"
+                                        FontSize="13"
+                                        Text="Sljedeća dostupnost"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="15:00 Prekosutra"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-48,0,0"
+                                    Background="#0EBE7F"
+                                    FontAttributes="Bold"
+                                    FontSize="14"
+                                    Text="Rezerviši" />
+
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                    <!--  Dino Merlin  -->
+                    <Frame
+                        Padding="12,-30,20,20"
+                        BackgroundColor="#FFFFFF"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="True"
+                        HeightRequest="210"
+                        WidthRequest="370">
+                        <FlexLayout AlignItems="Center" Direction="Row">
+
+                            <!--  Slika Doktora  -->
+                            <Image
+                                Margin="0,-5,0,0"
+                                HeightRequest="120"
+                                HorizontalOptions="Start"
+                                Source="bolnica.png"
+                                VerticalOptions="Start"
+                                WidthRequest="120" />
+
+                            <StackLayout Margin="10,0,0,0">
+
+                                <!--  Naziv Doktora  -->
+                                <Label
+                                    Margin="-10,36,0,0"
+                                    Padding="0,0,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    Text="Dr. Dino Merlin"
+                                    TextColor="#333333" />
+
+                                <!--  Specijalnost  -->
+                                <Label
+                                    Margin="-10,0,0,8"
+                                    FontSize="13"
+                                    Text="Hirurg (Mađioničar)"
+                                    TextColor="#0EBE7F" />
+
+                                <!--  Mjesto Posla  -->
+                                <Label
+                                    Margin="-10,0,0,10"
+                                    FontSize="12"
+                                    Text="NOVA Poliklinika"
+                                    TextColor="#677294" />
+
+                                <!--  Recenzija Doktora  -->
+                                <FlexLayout
+                                    Margin="-10,0,0,0"
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    HorizontalOptions="Start"
+                                    WidthRequest="180">
+                                    <Frame
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,0,0,0"
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="80%"
+                                        TextColor="#677294"
+                                        VerticalTextAlignment="Center" />
+
+                                </FlexLayout>
+
+                                <!--  Priče Pacijenata  -->
+                                <FlexLayout
+                                    AlignItems="Center"
+                                    Direction="Row"
+                                    HeightRequest="18"
+                                    HorizontalOptions="Center"
+                                    WidthRequest="195">
+                                    <Frame
+                                        Margin="26,-12,0,0"
+                                        BackgroundColor="#0EBE7F"
+                                        BorderColor="Transparent"
+                                        CornerRadius="1000"
+                                        HeightRequest="10"
+                                        WidthRequest="10" />
+                                    <Label
+                                        Margin="2,-12,0,0"
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="75"
+                                        TextColor="#677294"
+                                        VerticalTextAlignment="Center" />
+                                    <Label
+                                        Margin="1,-12,0,0"
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="Priča Pacijenata"
+                                        TextColor="#677294"
+                                        VerticalTextAlignment="Center" />
+                                </FlexLayout>
+
+                                <!--  Radno Vrijeme  -->
+                                <StackLayout>
+                                    <Label
+                                        Margin="-140,10,0,0"
+                                        FontAttributes="Bold"
+                                        FontSize="13"
+                                        Text="Sljedeća dostupnost"
+                                        TextColor="#0EBE7F" />
+                                    <Label
+                                        Margin="-140,0,0,0"
+                                        FontSize="12"
+                                        Text="09:00 Sutra"
+                                        TextColor="#677294" />
+                                </StackLayout>
+
+                                <!--  Dugme  -->
+                                <Button
+                                    Margin="0,-48,0,0"
+                                    Background="#0EBE7F"
+                                    FontAttributes="Bold"
+                                    FontSize="14"
+                                    Text="Rezerviši" />
+
+                            </StackLayout>
+                        </FlexLayout>
+                    </Frame>
+
+                </FlexLayout>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

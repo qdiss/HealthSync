@@ -448,7 +448,7 @@
                                 <Button
                                     Margin="0,-52,0,0"
                                     Background="#0EBE7F"
-                                    Clicked="GoToBolnica"
+                                    Clicked="GoToDomZdravlja"
                                     FontAttributes="Bold"
                                     FontSize="12"
                                     Text="Izaberi" />
@@ -569,6 +569,7 @@
                                 <Button
                                     Margin="0,-52,0,0"
                                     Background="#0EBE7F"
+                                    Clicked="GoToStacionar"
                                     FontAttributes="Bold"
                                     FontSize="12"
                                     Text="Izaberi" />
@@ -689,6 +690,7 @@
                                 <Button
                                     Margin="0,-52,0,0"
                                     Background="#0EBE7F"
+                                    Clicked="GoToPolSunce"
                                     FontAttributes="Bold"
                                     FontSize="12"
                                     Text="Izaberi" />
@@ -809,6 +811,7 @@
                                 <Button
                                     Margin="0,-52,0,0"
                                     Background="#0EBE7F"
+                                    Clicked="GoToPolMedicom"
                                     FontAttributes="Bold"
                                     FontSize="12"
                                     Text="Izaberi" />
@@ -929,6 +932,7 @@
                                 <Button
                                     Margin="0,-52,0,0"
                                     Background="#0EBE7F"
+                                    Clicked="GoToPolEpion"
                                     FontAttributes="Bold"
                                     FontSize="12"
                                     Text="Izaberi" />
@@ -1049,6 +1053,7 @@
                                 <Button
                                     Margin="0,-52,0,0"
                                     Background="#0EBE7F"
+                                    Clicked="GoToPolNOVA"
                                     FontAttributes="Bold"
                                     FontSize="12"
                                     Text="Izaberi" />
@@ -1169,6 +1174,7 @@
                                 <Button
                                     Margin="0,-52,0,0"
                                     Background="#0EBE7F"
+                                    Clicked="GoToPolSabic"
                                     FontAttributes="Bold"
                                     FontSize="12"
                                     Text="Izaberi" />
@@ -1289,6 +1295,7 @@
                                 <Button
                                     Margin="0,-52,0,0"
                                     Background="#0EBE7F"
+                                    Clicked="GoToPolPrima"
                                     FontAttributes="Bold"
                                     FontSize="12"
                                     Text="Izaberi" />
@@ -1409,7 +1416,7 @@
                                 <Button
                                     Margin="0,-52,0,0"
                                     Background="#0EBE7F"
-                                    Clicked="GoToBolnica"
+                                    Clicked="GoToPolZdravlje"
                                     FontAttributes="Bold"
                                     FontSize="12"
                                     Text="Izaberi" />

@@ -90,49 +90,76 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Pages\BoardingScreen1.xaml">
+	  <MauiXaml Update="Pages\AllHospitals\NOVAPoliklinika.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\BoardingScreen2.xaml">
+	  <MauiXaml Update="Pages\AllHospitals\PoliklinikaEpion.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\BoardingScreen3.xaml">
+	  <MauiXaml Update="Pages\AllHospitals\PoliklinikaMedicom.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\BolnicaScreen.xaml">
+	  <MauiXaml Update="Pages\AllHospitals\PoliklinikaPrima.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\AllHospitals\PoliklinikaSabic.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\AllHospitals\PoliklinikaSunce.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\AllHospitals\PoliklinikaZdravlje.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\AllHospitals\Stacionar.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\BoadingScreens\BoardingScreen1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\BoadingScreens\BoardingScreen2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\BoadingScreens\BoardingScreen3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\AllHospitals\BolnicaScreen.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\ChooseClinic.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\DoctorDetails.xaml">
+	  <MauiXaml Update="Pages\PopularDoctors\DoctorDetails.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\DoctorTimePick.xaml">
+	  <MauiXaml Update="Pages\SearchDoctor\DoctorTimePick.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\PopularDoctor.xaml">
+	  <MauiXaml Update="Pages\AllHospitals\DomZdravljaScreen.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\PopularDoctorsAll.xaml">
+	  <MauiXaml Update="Pages\PopularDoctors\PopularDoctor.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Rezervacija.xaml">
+	  <MauiXaml Update="Pages\PopularDoctors\PopularDoctorsAll.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\RezervacijaPotvrda.xaml">
+	  <MauiXaml Update="Pages\PopularDoctors\Rezervacija.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\SearchDoctor.xaml">
+	  <MauiXaml Update="Pages\PopularDoctors\RezervacijaPotvrda.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\SearchDoctorTime.xaml">
+	  <MauiXaml Update="Pages\SearchDoctor\SearchDoctor.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\SignIn.xaml">
+	  <MauiXaml Update="Pages\SearchDoctor\SearchDoctorTime.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Login.xaml">
+	  <MauiXaml Update="Pages\LoginAndSignUp\SignIn.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\LoginAndSignUp\Login.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

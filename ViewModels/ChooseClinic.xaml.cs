@@ -1,3 +1,5 @@
+using HealthSync.Pages.AllHospitals;
+
 namespace HealthSync.Pages;
 
 public partial class ChooseClinic : ContentPage
@@ -13,6 +15,51 @@ public partial class ChooseClinic : ContentPage
     private async void GoToBolnica(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new BolnicaScreen());
+    }
+
+    private async void GoToDomZdravlja(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new DomZdravljaScreen());
+    }
+
+    private async void GoToStacionar(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Stacionar());
+    }
+
+    private async void GoToPolSunce(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new PoliklinikaSunce());
+    }
+
+    private async void GoToPolMedicom(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new PoliklinikaMedicom());
+    }
+
+    private async void GoToPolEpion(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new PoliklinikaEpion());
+    }
+
+    private async void GoToPolNOVA(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new NOVAPoliklinika());
+    }
+
+    private async void GoToPolSabic(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new PoliklinikaSabic());
+    }
+
+    private async void GoToPolPrima(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new PoliklinikaPrima());
+    }
+
+    private async void GoToPolZdravlje(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new PoliklinikaZdravlje());
     }
 
     private async void OnSearchButtonPressed(object sender, EventArgs e)

@@ -22,29 +22,83 @@ build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/BoardingScreen1.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/AllHospitals/BolnicaScreen.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.BoardingScreen1.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\BoardingScreen1.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\BoardingScreen1.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.AllHospitals.BolnicaScreen.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AllHospitals\BolnicaScreen.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AllHospitals\BolnicaScreen.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/BoardingScreen2.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/AllHospitals/DomZdravljaScreen.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.BoardingScreen2.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\BoardingScreen2.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\BoardingScreen2.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.AllHospitals.DomZdravljaScreen.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AllHospitals\DomZdravljaScreen.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AllHospitals\DomZdravljaScreen.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/BoardingScreen3.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/AllHospitals/NOVAPoliklinika.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.BoardingScreen3.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\BoardingScreen3.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\BoardingScreen3.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.AllHospitals.NOVAPoliklinika.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AllHospitals\NOVAPoliklinika.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AllHospitals\NOVAPoliklinika.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/BolnicaScreen.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/AllHospitals/PoliklinikaEpion.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.BolnicaScreen.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\BolnicaScreen.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\BolnicaScreen.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.AllHospitals.PoliklinikaEpion.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AllHospitals\PoliklinikaEpion.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AllHospitals\PoliklinikaEpion.xaml
+
+[C:/Users/aklob/Desktop/HealthSync/Pages/AllHospitals/PoliklinikaMedicom.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.AllHospitals.PoliklinikaMedicom.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AllHospitals\PoliklinikaMedicom.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AllHospitals\PoliklinikaMedicom.xaml
+
+[C:/Users/aklob/Desktop/HealthSync/Pages/AllHospitals/PoliklinikaPrima.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.AllHospitals.PoliklinikaPrima.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AllHospitals\PoliklinikaPrima.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AllHospitals\PoliklinikaPrima.xaml
+
+[C:/Users/aklob/Desktop/HealthSync/Pages/AllHospitals/PoliklinikaSabic.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.AllHospitals.PoliklinikaSabic.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AllHospitals\PoliklinikaSabic.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AllHospitals\PoliklinikaSabic.xaml
+
+[C:/Users/aklob/Desktop/HealthSync/Pages/AllHospitals/PoliklinikaSunce.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.AllHospitals.PoliklinikaSunce.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AllHospitals\PoliklinikaSunce.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AllHospitals\PoliklinikaSunce.xaml
+
+[C:/Users/aklob/Desktop/HealthSync/Pages/AllHospitals/PoliklinikaZdravlje.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.AllHospitals.PoliklinikaZdravlje.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AllHospitals\PoliklinikaZdravlje.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AllHospitals\PoliklinikaZdravlje.xaml
+
+[C:/Users/aklob/Desktop/HealthSync/Pages/AllHospitals/Stacionar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.AllHospitals.Stacionar.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AllHospitals\Stacionar.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AllHospitals\Stacionar.xaml
+
+[C:/Users/aklob/Desktop/HealthSync/Pages/BoadingScreens/BoardingScreen1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.BoadingScreens.BoardingScreen1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\BoadingScreens\BoardingScreen1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\BoadingScreens\BoardingScreen1.xaml
+
+[C:/Users/aklob/Desktop/HealthSync/Pages/BoadingScreens/BoardingScreen2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.BoadingScreens.BoardingScreen2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\BoadingScreens\BoardingScreen2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\BoadingScreens\BoardingScreen2.xaml
+
+[C:/Users/aklob/Desktop/HealthSync/Pages/BoadingScreens/BoardingScreen3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.BoadingScreens.BoardingScreen3.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\BoadingScreens\BoardingScreen3.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\BoadingScreens\BoardingScreen3.xaml
 
 [C:/Users/aklob/Desktop/HealthSync/Pages/ChooseClinic.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -52,65 +106,65 @@ build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.ChooseCli
 build_metadata.AdditionalFiles.TargetPath = Pages\ChooseClinic.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\ChooseClinic.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/DoctorDetails.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/LoginAndSignUp/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.DoctorDetails.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\DoctorDetails.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\DoctorDetails.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.LoginAndSignUp.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\LoginAndSignUp\Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\LoginAndSignUp\Login.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/DoctorTimePick.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/LoginAndSignUp/SignIn.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.DoctorTimePick.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\DoctorTimePick.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\DoctorTimePick.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.LoginAndSignUp.SignIn.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\LoginAndSignUp\SignIn.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\LoginAndSignUp\SignIn.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/Login.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/PopularDoctors/DoctorDetails.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.Login.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\Login.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\Login.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.PopularDoctors.DoctorDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PopularDoctors\DoctorDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PopularDoctors\DoctorDetails.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/PopularDoctor.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/PopularDoctors/PopularDoctor.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.PopularDoctor.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\PopularDoctor.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\PopularDoctor.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.PopularDoctors.PopularDoctor.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PopularDoctors\PopularDoctor.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PopularDoctors\PopularDoctor.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/PopularDoctorsAll.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/PopularDoctors/PopularDoctorsAll.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.PopularDoctorsAll.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\PopularDoctorsAll.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\PopularDoctorsAll.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.PopularDoctors.PopularDoctorsAll.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PopularDoctors\PopularDoctorsAll.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PopularDoctors\PopularDoctorsAll.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/Rezervacija.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/PopularDoctors/Rezervacija.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.Rezervacija.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\Rezervacija.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\Rezervacija.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.PopularDoctors.Rezervacija.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PopularDoctors\Rezervacija.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PopularDoctors\Rezervacija.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/RezervacijaPotvrda.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/PopularDoctors/RezervacijaPotvrda.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.RezervacijaPotvrda.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\RezervacijaPotvrda.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\RezervacijaPotvrda.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.PopularDoctors.RezervacijaPotvrda.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PopularDoctors\RezervacijaPotvrda.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PopularDoctors\RezervacijaPotvrda.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/SearchDoctor.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/SearchDoctor/DoctorTimePick.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.SearchDoctor.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\SearchDoctor.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\SearchDoctor.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.SearchDoctor.DoctorTimePick.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SearchDoctor\DoctorTimePick.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SearchDoctor\DoctorTimePick.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/SearchDoctorTime.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/SearchDoctor/SearchDoctor.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.SearchDoctorTime.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\SearchDoctorTime.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\SearchDoctorTime.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.SearchDoctor.SearchDoctor.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SearchDoctor\SearchDoctor.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SearchDoctor\SearchDoctor.xaml
 
-[C:/Users/aklob/Desktop/HealthSync/Pages/SignIn.xaml]
+[C:/Users/aklob/Desktop/HealthSync/Pages/SearchDoctor/SearchDoctorTime.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.SignIn.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\SignIn.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\SignIn.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HealthSync.Pages.SearchDoctor.SearchDoctorTime.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SearchDoctor\SearchDoctorTime.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SearchDoctor\SearchDoctorTime.xaml
 
 [C:/Users/aklob/Desktop/HealthSync/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

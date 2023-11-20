@@ -21,49 +21,76 @@
     <MauiXaml Update="AppShell.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\BoardingScreen1.xaml">
+    <MauiXaml Update="Pages\AllHospitals\NOVAPoliklinika.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\BoardingScreen2.xaml">
+    <MauiXaml Update="Pages\AllHospitals\PoliklinikaEpion.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\BoardingScreen3.xaml">
+    <MauiXaml Update="Pages\AllHospitals\PoliklinikaMedicom.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\BolnicaScreen.xaml">
+    <MauiXaml Update="Pages\AllHospitals\PoliklinikaPrima.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\AllHospitals\PoliklinikaSabic.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\AllHospitals\PoliklinikaSunce.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\AllHospitals\PoliklinikaZdravlje.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\AllHospitals\Stacionar.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\BoadingScreens\BoardingScreen1.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\BoadingScreens\BoardingScreen2.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\BoadingScreens\BoardingScreen3.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\AllHospitals\BolnicaScreen.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\ChooseClinic.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\DoctorDetails.xaml">
+    <MauiXaml Update="Pages\PopularDoctors\DoctorDetails.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\DoctorTimePick.xaml">
+    <MauiXaml Update="Pages\SearchDoctor\DoctorTimePick.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\PopularDoctor.xaml">
+    <MauiXaml Update="Pages\AllHospitals\DomZdravljaScreen.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\PopularDoctorsAll.xaml">
+    <MauiXaml Update="Pages\PopularDoctors\PopularDoctor.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\Rezervacija.xaml">
+    <MauiXaml Update="Pages\PopularDoctors\PopularDoctorsAll.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\RezervacijaPotvrda.xaml">
+    <MauiXaml Update="Pages\PopularDoctors\Rezervacija.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\SearchDoctor.xaml">
+    <MauiXaml Update="Pages\PopularDoctors\RezervacijaPotvrda.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\SearchDoctorTime.xaml">
+    <MauiXaml Update="Pages\SearchDoctor\SearchDoctor.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\SignIn.xaml">
+    <MauiXaml Update="Pages\SearchDoctor\SearchDoctorTime.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\Login.xaml">
+    <MauiXaml Update="Pages\LoginAndSignUp\SignIn.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\LoginAndSignUp\Login.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Platforms\Windows\App.xaml">
